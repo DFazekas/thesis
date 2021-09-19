@@ -1,0 +1,23 @@
+function FindCollisionPath(er_polyline, cv_polyline, er_steps, cv_steps)
+    overlaps = []
+    overlaps.append(findPathOverlaps(er_polyline, cv_steps))
+    overlaps.append(findPathOverlaps(cv_polyline, er_steps))
+    overlapPolyline = generatePolyline(overlaps)
+    return {overlapPolyline, overlaps}
+end function
+
+function FindPathOverlaps(polyline, steps)
+    result = []
+    for step in steps do
+        overlapPosition = locationIndexOnEdgeOrPath(step, polyline)
+        if overlapPosition > -1 then
+            result.append({step, overlapPosition})
+        end if
+    end for
+    return result
+end function
+
+
+
+
+

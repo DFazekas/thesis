@@ -1,0 +1,51 @@
+\chapter{Introduction}
+\glspl{ER} are persons with specialized training who arrive first at scenes of emergency and typically include \acrlong{LEO}s (\acrshort{LEO}), firefighters, and \acrlong{EMS} (\acrshort{EMS}) technicians \cite{Hsiao2018}. Given the time-sensitive nature of emergencies, \acrshort{ER}s need to quickly and safely reach their destinations \cite{Al-Ghamdi2002}. They thus are authorized to operate \acrlong{EV}s (\acrshort{EV}s) with the \textit{\gls{Code Three Running}} option permitting use of warning lights, sirens, exceeding speed limits and crossing against stop signs and red lights to minimize arrival times \cite{Hsiao2018, Al-Ghamdi2002, Buchenscheit2009}.
+
+As the number of registered vehicles continues to grow each year, the increase in urban traffic volume leads to congestion and delays, resulting in increased emergency arrival times and the risk that \acrshort{ER}s face when responding to calls \cite{Vlad2008}. For \acrshort{ER}s, crash-related fatalities are up to 4.8 times more likely than any other driving-related occupation in the United States, given that they operate under stressful driving conditions, time pressure, and multitasking activities \cite{Hsiao2018}. The relevant causative factors attributing to these crashes include:
+
+\begin{itemize}
+	\item Complicated urban intersections \cite{Hsiao2018, Retting1995};
+	\item High traffic volumes \cite{Hsiao2018, Vlad2008};
+	\item Lack of recognition by other drivers \cite{Hsiao2018, Vlad2008, Sukru2020}; and
+	\item Human error \cite{Buchenscheit2009, Sukru2020}.
+\end{itemize}
+    
+In the United States, \acrshort{EV}-involved crashes account for thousands of injuries and hundreds of fatalities each year. Between 2004 and 2006, 37,600 \acrshort{LEO} were reported injured \cite{Hsiao2018}, 17,000 firefighters in 2015 \cite{Hsiao2018}, and 1,500 \acrshort{EMS} technicians in 2009 \cite{Hsiao2018}. The average annual fatality count for \acrshort{ER}s as a result of these accidents is approximately 100 for \acrshort{LEO}s \cite{Hsiao2018, Emergency-Vehicles2020, Enforcement-Safety2020}, 45 for \acrshort{EMS} technicians \cite{Hsiao2018, Emergency-Vehicles2020}, and 15 for firefighters \cite{Hsiao2018, Emergency-Vehicles2020}. Furthermore, reports from \cite{Hsiao2018} show an average of 60 civilian fatalities each year due to these accidents, which also incur many lawsuits costing the cities millions of dollars due to these injuries, property damage, and life loss \cite{Hsiao2018}.
+
+
+\section{Statement of the Problem}
+The \acrlong{MOT} (\acrshort{MOT}) in Canada is dedicated to moving people safely, efficiently, and sustainably through promoting innovative technology and infrastructure. When it comes to emergency calls, \acrshort{EV}s are equipped with sirens and lights, and there are laws in place that dictate how civilian drivers should respond to nearby \gls{Active EV}s. For instance, failure to slow down and make room when approaching an \gls{Active EV} or failure to maintain at least 150-meters from a travelling \acrshort{ER} will result in fines between \$400 to \$2,000 and three demerit points in Ontario based on Section 159(2) and (3) of the Highway Traffic Act \cite{MoveOver_2021, MTO_2020}. 
+
+
+Unfortunately, the traditional methods used by \acrshort{EV}s (i.e., lights and sirens) have been proven ineffective at attaining attention of civilian drivers (civilian drivers) and negotiating traffic in urban areas. By the time civilian drivers recognize the signals, they have difficulty identifying the \acrshort{EV}'s direction and distance, thereby not having enough time or context to react effectively \cite{McDonald2013}.
+
+Continuing with the reliance on human perception-based warning signals results in additional traffic chaos and accidents \cite{McDonald2013}. Developing a more sophisticated and assistive system for connected \acrshort{ER}s and civilian drivers could help the \acrlong{MOT} increase the overall road safety in urban areas by minimizing the flow rate through strategically distributing traffic flow from primary roads to secondary roads. 
+
+
+\section{Purpose of the Study}
+The study will simulate various traffic situations in urban areas with varying levels of \acrshort{IoT}-enabled vehicles (hereafter referred to as \textit{connected vehicles}). The connected vehicles will use cellular data to establish two-way communication with our cloud server and V2V communication between other connected vehicles. We define a \textit{\gls{Route Collision}} as the event of a civilian vehicle getting closer than the safety threshold, enforced by the \acrlong{MOT} \cite{MoveOver_2021, MTO_2020}, to an \gls{Active EV}. For the system to avoid \gls{Route Collision}s, drivers of both types of vehicles (i.e., an \acrshort{ER}'s vehicle and civilian vehicle) need to enter their destinations before driving and follow the paths provided by our system. This study explores the relationship between regulating traffic flow between primary and secondary roads and the overall road safety for vehicles within urban areas such as Toronto, Ontario.
+
+
+\section{Outcomes \& Contributions}
+The study by Huang \cite{Huang2009} uses a centralized traffic-control server coupled with roadside units (RSUs) and onboard units (OBUs) to orchestrate vehicular traffic in emergencies. The server is responsible for computing the shortest path (based on the A* algorithm) to a disaster site for emergency vehicles and predicting the warning region ahead of these vehicles where civilian drivers will be notified of the emergency and instructed to take an alternative path or pull-over and halt until further notice. The overall system aims to improve road safety and reduce arrival times for \gls{Active EV}s by redirecting civilian drivers out of the way of emergency vehicles en route to a disaster site. Huang's approach relies on near-real-time communication with \gls{Active EV}s to adjust to traffic changes and send warning notifications. However, the chosen communication technology (i.e., DSRC) is short-range by design. Therefore, high adoption rates for RSUs and OBUs are necessary to minimize the geographical distance an OBU-equipped vehicle must travel to receive and transmit updates to the centralized server, reducing the communication gaps. Additionally, since many cities have not yet adopted RSU devices into their infrastructure, nor have car manufacturers included OBUs in commercial vehicles, the deployment of this research approach would be expensive.
+
+This research will focus on preemptively assisting civilian drivers in avoiding \gls{Route Collision}s and congested road segments. Our \textit{Route Collision Avoidance System} will guide connected civilian drivers to maintain the safety threshold of 150-meters \cite{MoveOver_2021, MTO_2020} from all \gls{Active EV}s during their commute. Our system warns the drivers of connected vehicles minutes before decisions need to be made and reduces their cognitive workload by offloading the maneuvering decisions in potentially complicated and stressful environments to our server, reducing human error. All of this, combined with minimizing \gls{Localized Traffic Volume} for \acrshort{EV}s, reduces the risk of \acrshort{EV}-involved accidents during emergency calls.
+
+This research aims to provide vehicle manufacturers with our cloud-based \textit{A Cloud-Based Road-Traffic Risk Mediator System} to embed as standard within their \acrshort{IoT}-enabled motor vehicles, helping drivers make better decisions that result in safer, smoother, and faster commutes.
+
+
+\section{Research Question}
+This study explores the use of real-time route guidance for connected vehicles in regulating traffic volume and flow. This study's factors include the headway, V/C ratio, and arrival times. The populations that this study will explore are civilian drivers and \acrshort{ER}s in ordinary and connected vehicles in urban areas, such as the city of Toronto. 
+This study aims to answer the research question: Does strategically dispersing connected vehicle traffic volume from primary to second roads improve overall road safety and reduce arrival times for connected ERs responding to emergency calls?
+
+
+\section{Significance of the Study}
+By leveraging cloud computing and \acrshort{IoT} technologies, civilian drivers will overcome human perception limitations at identifying \gls{Active EV}s, more effectively avoid \gls{Active EV}s, and \acrshort{ER}s will have fewer vehicles in their path to maneuver around when responding to emergency calls. All of this contributes to minimizing the risk of \acrshort{EV}-involved accidents, reducing arrival times, and creating safer and smoother commutes for road users.
+
+
+\section{Overview of Methodology}
+Our experiments are simulation-based, consisting of simulation software and a cloud-hosted server. Each experiment tests various realistic traffic situations designed to evaluate the effectiveness of our system against varying penetration rates of connected vehicles. When our server generates a connected civilian drivers' path, it searches for any possible \gls{Route Collision}s with \gls{Active EV}s within the city. It uses the respective vehicle's current location, speed and traffic data to estimate whether the vehicles could collide (i.e., appear within the 150-meters \cite{MoveOver_2021, MTO_2020} threshold of each other). If a \gls{Route Collision} is likely, we modify the civilian driver's path, optimizing it for the fastest commute while avoiding the collision areas.
+
+
+\section{Organization of the Thesis}
+This chapter introduced our topic and the problem we will be studying. We looked at why we need to study this and how we will benefit from it. In chapter 2, we explore the review of related literature. Chapter 3 incorporates the methodology that we are going to use to conduct our experiments. Chapter 4 reports on our findings. Chapter 5 provides our conclusions and recommendations.

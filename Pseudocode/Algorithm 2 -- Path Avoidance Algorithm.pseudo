@@ -1,0 +1,15 @@
+function ComputeDetour(collisionPath, cv, er)
+    stepsToAvoid = []
+    waypoints = GenerateWaypoints(collisionPath.polyline)    
+    for step in waypoints do 
+        cv_arrivalInMinutes = CalculateArrivalTime(step, vc.currentSpeed, vc.currentLocation, "minutes")
+        er_arrivalInMinutes = CalculateArrivalTime(step, er.currentSpeed, er.currentLocation, "minutes", SAFETY_THRESHOLD)
+        absArrivalDifferenceInMinutes = |ar_arrival - cv_arrival|
+        if absArrivalDifferenceInMinutes <= 2.0 then
+            stepsToAvoid.append({step, absArrivalDifferenceInMinutes})
+        end if
+    end for
+    cv.route = Detour(cv.route, stepsToAvoid)
+    return cv
+end function
+

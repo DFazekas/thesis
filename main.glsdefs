@@ -1,0 +1,30 @@
+\ifglsentryexists{ER}{}%
+{%
+\gls@defglossaryentry{ER}%
+{%
+name={ER},%
+sort={ER},%
+type={main},%
+first={ER},%
+firstplural={ERs},%
+text={ER},%
+plural={ERs},%
+description={ER (Emergency Responders) is any special...},%
+descriptionplural={ER (Emergency Responders) is any special...},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
