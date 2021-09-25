@@ -1,0 +1,29 @@
+\chapter{Conclusion}
+
+\section{Summary}
+Around the world, the elderly are falling more frequently than during any other time in history. Unlike other age groups, falls in the elderly pose serious health risks due to the increased potential for health-related consequences that transpire after a fall has occurred.
+Determining when authentic falls in natural home environments is an ongoing problem to which we have provided a solution. In this paper we described an innovative fall detection algorithm and report on real test case scenarios. Our solution offers the following benefits:
+
+\begin{enumerate}
+\item it is a lightweight application that can run on any low-powered device such as an Arduinos, or Raspberry Pi;
+\item it unobtrusively monitors the senior and requires no involvement from the resident;
+\item it is easily deployed to any home or senior living environment;
+\item it does not require the senior to wear a special wearable;
+\item it is secure and confidential—all processing and decision making are done locally—only notifications indicating that a fall has been detected is transmitted to stakeholders;
+\item In real test case scenarios, our system was able to achieve 97\% accuracy compared to ground truth;
+\item The classifier was implemented using an advanced machine learning technology and Pose Estimation—which is a novel contribution. No other fall detection system uses human pose analysis using frame history analysis as presented in this work; and
+\item This research sheds light on reasoning about fall detection in senior living environments.  Currently, this is largely an unsolved problem.
+\end{enumerate}
+
+\section{Future Work}
+In future implementations of fall detection systems based on human pose estimation, many improvements could be made on the systems presented in this paper to aid in increasing the accuracy of fall detection. First, balancing the amount of frame data that contains fall and non-fall states from videos analyzed by cutting off the start and end points of footage to only contain the motions of falling would likely allow machine learning models to learn more appropriately what fall pose information looks like. At the same time, one would likely want to get much more video data in the future and increase the size of the training dataset used.
+
+It may also be advantageous to investigate the effects of having a dataset that contains fully, or at least in majority, real elderly participants, to more accurately simulate falls that would happen in the targeted audience of this research. More accurate results may come about from having people who perhaps fall and walk differently from the more youthful participants in our experiments. Training datasets could also be possibly improved by including some calculations based on the pose data retrieved from the videos analyzed. For example, one could calculate the velocity of a falling participant at any given frame in a video and have this velocity value be integrated into the ML models in use to further differentiate falls from non-falls.
+
+In the systems presented in this paper, there was often more of a problem detecting a participant's fall when they collapsed behind an object or obstacle. There are a few ways that this issue can be avoided by using multiple cameras in rooms. By viewing falls from different angles at once and confirming with each other about when a fall is truly confirmed to have happened, may make falling behind obstacles no longer a problem since most cameras would see the fall occur when one might not. Obstacles could also be treated as if they don’t exist at all. For example, by using radio signals to complete pose detection through furniture, or even walls, and having these resulting poses be run through the fall detection system. In this case, there may not need to be as many cameras to confirm if a fall has occurred \cite{RN1005}.
+
+Finally, there is also the possibility of using other smart home devices, such as motion sensors, window/door sensors, wearable devices, and/or home voice assistants, in connected communication with each other, to further confirm that a person has truly fallen.
+
+
+
+In the spirit of furthering science and this work, the source code for the classifier, models, and data sets will be openly available on the author’s and/or journal’s website. We hope this will encourage other researchers to extend and explore our work and to test and compare our classifier with other fall detection systems.

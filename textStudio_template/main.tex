@@ -1,0 +1,84 @@
+% This is the main.tex file
+% It includes all relevant documents for your Thesis
+
+\documentclass[12pt,twoside]{MobileComputing_Thesis}
+
+% for widow/orphan lines
+%\usepackage[all]{nowidow}
+
+% for Bibliography to be listed in the Table of Contents
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+
+% for including graphics (png, etc.)
+\usepackage{graphicx}
+
+% the default directory for images:
+\graphicspath{ {./Figures/} }
+
+\usepackage{longtable}
+\RequirePackage{fix-cm}
+\RequirePackage{amsmath}
+
+\usepackage[hidelinks]{hyperref}  % for including hyperlinks in document, the hidelinks removes the green box in the pdf
+\usepackage{listings} % for source code listing
+\usepackage{color} % for source code listing
+
+\usepackage{nccmath}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\usepackage{lipsum}  % for dummy text for illustration only (lorem ipsum)
+
+% for centering content in a table 
+% https://tex.stackexchange.com/questions/157389/how-to-center-column-values-in-a-table
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\usepackage {natbib}  % for natbib.sty for Bibliography
+
+\interfootnotelinepenalty=10000  % so footnotes stay on the page where presented
+
+\definecolor{dkgreen}{rgb}{0,0.6,0} % for source code listing
+\definecolor{gray}{rgb}{0.5,0.5,0.5} % for source code listing
+\definecolor{mauve}{rgb}{0.58,0,0.82} % for source code listing
+
+\renewcommand\labelitemi{$\bullet$}  % redefine bullet to be normal round black as opposed to -- (dashes)
+\renewcommand\labelitemii{$\bullet$}
+
+% for source code listing
+\lstset{frame=tb,
+	language=Java,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+
+\begin{document}
+
+\include{cover}
+
+\pagestyle{plain}
+\include{contents}
+\include{chap1_Introduction}
+\include{chap2_Literature_Review}
+\include{chap3_Methodology}
+\include{chap4_Findings}
+\include{chap5_Discussion}
+\include{chap6_Conclusions}
+\include{biblio}
+\appendix
+\include{Appendix_A}
+\include{Appendix_B}
+
+\end{document}
+
