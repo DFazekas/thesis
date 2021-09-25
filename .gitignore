@@ -1,5 +1,4 @@
 *.aux
-*.pdf
 *.acn
 *.acr
 *.alg
@@ -18,4 +17,3 @@
 *.cls
 *.gls
 *.DS_Store
-scripts/
