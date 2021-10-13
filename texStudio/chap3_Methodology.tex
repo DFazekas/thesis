@@ -327,7 +327,7 @@ This situation represents a police vehicle car chase, starting within the road s
 
 Calculating traffic safety risk is a complex and ambiguous task. The authors of the \cite{leur_sayed_2002} developed a road safety risk index (RSRI), enabling a quantitative approach for measuring road safety. The RSRI is based on three isolated fundamental elements such as exposure, probability, and consequence.
 
-$( \text{RSRI} = \text{Exposure} \times \text{Probability} \times \text{Consequence} )$
+\(( \text{RSRI} = \text{Exposure} \times \text{Probability} \times \text{Consequence} )\)
 
 Where:
 \begin{enumerate}
@@ -342,32 +342,32 @@ Alongside the RSRI parameters, we also consider several traffic parameters and p
 
 Exposure is the measure to quantify drivers' exposure to potential roadway hazards, such as nearby vehicles. It provides a score ranging from zero to a maximum of 3.0, with a high score representing high exposure.
 
-$\text{Exposure}_\text{urban}=(\frac{V_{i(\text{major})} \times V_{i(\text{minor})}}{V_{\text{max}(\text{major})} \times V_{\text{max}(\text{minor})}})\times3.0$
+\(\text{Exposure}_\text{urban}=(\frac{V_{i(\text{major})} \times V_{i(\text{minor})}}{V_{\text{max}(\text{major})} \times V_{\text{max}(\text{minor})}})\times3.0\)
 
 Where:
 \being{enumerate}
-\item $V_{\text{max}(\text{major})}$ = maximum volume on the major road.
-\item $V_{\text{max}(minor)}$ = maximum volume on the minor road.
-\item $V_{i}$ = volume at the location of a specific roadway.
+\item \(V_{\text{max}(\text{major})}\) = maximum volume on the major road.
+\item \(V_{\text{max}(minor)}\) = maximum volume on the minor road.
+\item \(V_{i}\) = volume at the location of a specific roadway.
 \end{enumerate}
 
 \subsection{Consequence}
 
 The Consequence metric is the amount of danger the driver can incur if an accident were to happen. It is a ratio between the posted speed and maximum posted speed of a roadway segment. Maximum posted speed can equal the posted speed, or it can be based on a larger area. It provides a score ranging from zero to a maximum of 3.0, with a high score representing high consequence.
 
-$\text{Consequence}=(\frac{\text{Posted Speed}_i}{\text{Posted Speed}_\text{max}})\times3.0$
+\(\text{Consequence}=(\frac{\text{Posted Speed}_i}{\text{Posted Speed}_\text{max}})\times3.0\)
 
 Where:
 \begin{enumerate}
-\item $\text{PS}_i$ = posted speed at the location of a specific roadway.
-\item $\text{PS}_\text{max}$ = maximum posted speed.
+\item \(\text{PS}_i\) = posted speed at the location of a specific roadway.
+\item \(\text{PS}_\text{max}\) = maximum posted speed.
 \end{enumerate}
 
 \subsection{Volume-to-Capacity Ratio}
 
 Volume-to-Capacity (V/C) is the ratio of current or projected demand flow rate to the capacity of a segment. It is an indicator of how close a roadway is operating to \acrshort{its} capacity. An increase in the V/C ratio indicates longer vehicle delays and queuing.
 
-$\text{V/C Ratio}=\frac{\text{Demand flow rate}}{\text{Capacity}}$
+\(\text{V/C Ratio}=\frac{\text{Demand flow rate}}{\text{Capacity}}\)
 
 Where:
 \begin{enumerate} 
@@ -379,19 +379,19 @@ Where:
 
 Headway is the time difference between successive vehicles as they pass a point or segment, measured from the same point on each vehicle, expressed in seconds per vehicle.
 
-$\text{Headway}=\frac{\text{Spacing (ft/veh)}}{\text{Speed (ft/sec)}}$
+\(\text{Headway}=\frac{\text{Spacing (ft/veh)}}{\text{Speed (ft/sec)}}\)
 
 \subsection{Traffic Speed}
 
 The average speed of all vehicles passing through a point or segment. Variations in the speed of vehicles within and across lanes are important traffic safety indicators.
 
-$v_t=\frac{1}{n}\sum^{n}_{i=1}{v_i}$
+\(v_t=\frac{1}{n}\sum^{n}_{i=1}{v_i}\)
 
 Where:
 \begin{enumerate}
-\item $v_t$ is the time-mean speed.
-\item $v_i$ is the spot speed of $i^{th}$ vehicle.
-\item $n$ is the number of vehicles observed.
+\item \(v_t\) is the time-mean speed.
+\item \(v_i\) is the spot speed of \(i^{th}\) vehicle.
+\item \(n\) is the number of vehicles observed.
 \end{enumerate}
 
 \section{Research Validation}
