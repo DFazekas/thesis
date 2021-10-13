@@ -70,4 +70,4 @@ Many factors contribute to the increasing traffic congestion in urban areas, but
 Consequently, stopped traffic means greater congestion and may cause more chaos in nearby roadways. Similarly, another approach entails giving the direction of an approaching EV the right-of-way (i.e., displaying a green light) such that vehicles can move and clear a path [Buchenscheit2009]. This approach does not warn civilian drivers of the nearby EV, and it also relies heavily on the presence of modified traffic lights to control traffic flow.
 
 ## Conclusion
-This chapter examined the applications of CVs a d highlighted the multitude of advantages and limitations of daily use and emergencies. We explored existing literature that leverages CV applications to combat the perception, communication and cognitive processing issues civilian drivers face in emergencies.
+This chapter examined the applications of CVs and highlighted the multitude of advantages and limitations of daily use and emergencies. We explored existing literature that leverages CV applications to combat the perception, communication and cognitive processing issues civilian drivers face in emergencies.
