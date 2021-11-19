@@ -1,0 +1,7 @@
+time (sec),type,lane,pos (m),collider,victim,colliderType,victimType,colliderSpeed (m/s),victimSpeed (m/s)
+7513.00,collision,edge0_0,482.68,flow0.830,flow0.829,Civilian,Civilian,5.19,0.00
+7883.00,collision,edge0_0,152.68,flow0.874,flow0.873,Civilian,Civilian,5.55,0.00
+7908.00,collision,edge0_0,130.24,flow0.877,flow0.876,Civilian,Civilian,5.85,0.00
+8613.00,collision,edge0_0,475.18,flow0.901,flow0.900,Civilian,Civilian,0.24,0.00
+8693.00,collision,edge0_0,220.10,flow0.935,flow0.934,Civilian,Civilian,2.31,0.03
+8707.00,collision,edge0_0,175.08,flow0.941,flow0.940,Civilian,Civilian,5.27,0.08

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<configuration>
+  <input>
+    <net-file value="thesis.net.xml" />
+    <route-files value="thesis.rou.xml" />
+    <additional-files value="thesis.add.xml" />
+    <gui-settings-file value="../../globalConfigs/file.settings.xml" />
+    <no-step-log value="True" />
+    <time-to-teleport value="0" />
+  </input>
+  <time>
+    <begin value="0" />
+  </time>
+  <output>
+    <netstate-dump value="../reports/temp_netstate-dump.xml" options="--netstate-dump.empty-edges" />
+  </output>
+  <fcd-output value="../reports/temp_fcd.xml" options="fcd-output.distance" />
+
+</configuration>

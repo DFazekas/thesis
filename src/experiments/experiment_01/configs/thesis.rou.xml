@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Traffic routes -->
+    <route id="route01" edges="edge0 edge1 edge2 edge3 edge4" />
+    <route id="route02" edges="edge8 edge9 edge1 edge2 edge3 edge10 edge11" />
+
+    <flow id="flow0" begin="0" end="86400" type="Civilian" route="route01" vehsPerHour="400" />
+    <flow id="flow1" begin="0" end="7200" type="C_Civilian" route="route01" vehsPerHour="300" />
+    <!-- <flow id="flow2" begin="60" end="7200" type="ER" route="route01" vehsPerHour="3" />-->
+    <flow id="flow3" begin="60" end="7200" type="C_ER" route="route02" vehsPerHour="1" /> 
+    <flow id="flow4" begin="120" end="7200" type="C_ER" route="route02" vehsPerHour="1" /> 
+
+    <!-- Traffic demand -->
+    <!-- <vehicle id="veh1" depart="2" route="route01" type="C_Civilian" />
+    <vehicle id="veh2" depart="9" route="route01" type="C_Civilian" />
+    <vehicle id="veh3" depart="15" route="route01" type="C_Civilian" />
+    <vehicle id="veh4" depart="24" route="route01" type="Civilian" />
+    <vehicle id="veh6" depart="35" route="route01" type="C_Civilian" />
+    <vehicle id="veh5" depart="35" route="route02" type="C_ER" /> -->
+    <!-- <vehicle id="veh4" depart="2" route="route02" type="Civilian" /> -->
+    <!-- <vehicle id="veh6" depart="3" route="route01" type="Civilian" /> -->
+
+
+</routes>

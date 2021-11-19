@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-11-19 02:33:28 by Eclipse SUMO GUI Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="configs/thesis.net.xml"/>
+        <route-files value="configs/thesis.rou.xml"/>
+        <additional-files value="configs/thesis.add.xml"/>
+    </input>
+
+    <output>
+        <netstate-dump value="configs/../reports/temp_netstate-dump.xml"/>
+        <fcd-output value="configs/../reports/temp_fcd.xml"/>
+        <tripinfo-output value="reports/temp_tripinfo.xml"/>
+        <collision-output value="reports/temp_collisions.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="3"/>
+        <collision.stoptime value="600"/>
+        <time-to-teleport value="0"/>
+    </processing>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="53242"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="configs/../../globalConfigs/file.settings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<SSMLog>
+    <conflict begin="29.00" end="31.00" ego="flow0.1" foe="flow0.0">
+        <minTTC time="29.00" position="-801.05,-97.47" type="2" value="1.35"/>
+        <maxDRAC time="29.00" position="-801.05,-97.47" type="2" value="5.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="29.00" end="31.00" ego="flow0.0" foe="flow0.1">
+        <minTTC time="29.00" position="-801.05,-97.47" type="3" value="1.35"/>
+        <maxDRAC time="29.00" position="-801.05,-97.47" type="3" value="5.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.0">
+        <timeSpan values="0.00 1.00 2.00 3.00 4.00 5.00 6.00 7.00 8.00 9.00 10.00 11.00 12.00 13.00 14.00 15.00 16.00 17.00 18.00 19.00 20.00 21.00 22.00 23.00 24.00 25.00 26.00 27.00 28.00 29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.16 0.00 1.82 0.67 0.00 0.00 1.33 1.26 4.67 5.55 1.51 0.00 0.06 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.83 0.00 1.01 0.00"/>
+        <maxBR time="21.00" position="-797.21,-97.51" value="5.55"/>
+        <SGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.0">
+        <timeSpan values="3.00 4.00 5.00 6.00 7.00 8.00 9.00 10.00 11.00 12.00 13.00 14.00 15.00 16.00 17.00 18.00 19.00 20.00 21.00 22.00 23.00 24.00 25.00 26.00 27.00 28.00 29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.45 0.00 0.63 0.00 0.11 0.00 0.93 0.00 0.86 0.00 0.78 1.70 0.00 6.00 4.71 0.86 0.62 0.07 0.00 0.00 0.00 0.00 0.00 0.00 0.30 0.00 1.19 0.60 0.00 1.63 0.07 0.00"/>
+        <maxBR time="25.00" position="-799.92,-94.28" value="6.00"/>
+        <SGAPSpan values="3.25 8.32 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="3.00" position="-998.49,-94.09" value="3.25" leader="flow0.0"/>
+        <TGAPSpan values="NA 41.93 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="4.00" position="-998.29,-93.09" value="41.93" leader="flow0.0"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.1">
+        <timeSpan values="9.00 10.00 11.00 12.00 13.00 14.00 15.00 16.00 17.00 18.00 19.00 20.00 21.00 22.00 23.00 24.00 25.00 26.00 27.00 28.00 29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00 44.00 45.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.13 2.06 0.00 0.04 0.59 0.00 0.00 0.77 0.00 0.00 5.62 2.50 0.32 0.00 2.71 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.07 3.48 0.00 0.45"/>
+        <maxBR time="30.00" position="-809.31,-97.39" value="5.62"/>
+        <SGAPSpan values="61.67 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 57.96 45.75 32.88 18.89 NA NA NA 10.64 14.04 19.43 21.72 24.23 NA NA 23.16 20.25 17.33 20.32 NA NA"/>
+        <minSGAP time="33.00" position="-780.63,-96.45" value="10.64" leader="flow0.0"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 4.47 3.75 2.56 1.35 NA NA NA 1.52 3.29 3.65 2.67 2.33 NA NA 1.84 1.51 1.30 2.06 NA NA"/>
+        <minTGAP time="42.00" position="-694.14,-93.63" value="1.30" leader="flow1.0"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.1">
+        <timeSpan values="14.00 15.00 16.00 17.00 18.00 19.00 20.00 21.00 22.00 23.00 24.00 25.00 26.00 27.00 28.00 29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00 44.00 45.00 46.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.75 0.00 0.00 2.07 0.26 0.00 0.00 1.83 0.30 3.06 1.60 1.24 0.00 0.00 0.75 0.00 0.00 0.14 0.55 1.33 0.00 0.36"/>
+        <maxBR time="34.00" position="-807.53,-94.21" value="3.06"/>
+        <SGAPSpan values="3.85 9.04 15.16 22.17 NA NA NA NA NA NA NA 48.99 NA NA NA NA NA NA NA NA NA NA 14.04 15.36 16.18 18.30 20.48 NA 21.47 19.07 20.12 18.47 NA"/>
+        <minSGAP time="14.00" position="-998.49,-94.09" value="3.85" leader="flow0.1"/>
+        <TGAPSpan values="NA 20.26 6.72 8.80 NA NA NA NA NA NA NA 3.81 NA NA NA NA NA NA NA NA NA NA 2.06 1.70 1.52 1.86 1.97 NA 1.67 1.55 1.84 1.40 NA"/>
+        <minTGAP time="45.00" position="-684.83,-93.74" value="1.40" leader="flow0.1"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.2">
+        <timeSpan values="18.00 19.00 20.00 21.00 22.00 23.00 24.00 25.00 26.00 27.00 28.00 29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00 44.00 45.00 46.00 47.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.92 0.00 1.76 0.00 0.58 0.70 0.00 0.00 1.88 0.90 0.00 0.00 0.00 1.70 0.00 2.17 0.00 0.00 1.51 0.00 0.00"/>
+        <maxBR time="42.00" position="-741.19,-96.81" value="2.17"/>
+        <SGAPSpan values="39.76 53.09 64.17 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 57.71 NA NA NA NA"/>
+        <minSGAP time="18.00" position="-998.49,-94.09" value="39.76" leader="flow0.1"/>
+        <TGAPSpan values="NA 76.68 22.83 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 4.41 NA NA NA NA"/>
+        <minTGAP time="43.00" position="-730.93,-96.64" value="4.41" leader="flow1.0"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.3">
+        <timeSpan values="28.00 29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00 44.00 45.00 46.00 47.00 48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 58.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.38 0.00 1.02 0.03 0.40 0.32 0.00 0.82 1.29 0.00 0.00 0.00 2.10 0.00 0.00 0.02 1.53 0.00 0.00"/>
+        <maxBR time="52.00" position="-748.77,-93.74" value="2.10"/>
+        <SGAPSpan values="6.00 11.35 16.71 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="28.00" position="-998.49,-94.09" value="6.00" leader="flow1.2"/>
+        <TGAPSpan values="NA 6.59 4.41 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="30.00" position="-993.24,-93.15" value="4.41" leader="flow1.2"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.2">
+        <timeSpan values="24.00 25.00 26.00 27.00 28.00 29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00 44.00 45.00 46.00 47.00 48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 58.00 59.00 60.00 61.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.05 0.00 0.01 0.00 2.39 0.00 0.38 0.00 1.87 0.00 0.99 1.40 0.00 1.07 0.79 0.00 0.00 0.28 1.20 0.00 0.00 1.65 0.00 1.67 0.00 0.00 0.25 1.23 0.16 0.00"/>
+        <maxBR time="36.00" position="-906.14,-95.33" value="2.39"/>
+        <SGAPSpan values="26.06 37.06 48.80 59.42 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="24.00" position="-998.49,-94.09" value="26.06" leader="flow0.2"/>
+        <TGAPSpan values="NA 34.90 20.16 22.67 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="26.00" position="-995.19,-94.13" value="20.16" leader="flow0.2"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.5">
+        <timeSpan values="60.00 61.00 62.00 63.00 64.00 65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00 73.00 74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.15 0.42 0.64 0.00 1.02 0.00 2.74 2.47 0.00 0.00 0.29 0.00 0.00 6.00 0.00 0.00 0.00 0.38 0.12 0.00 1.19 0.00 3.62 4.41 0.00 0.00 0.00 0.00 0.00 0.00"/>
+        <maxBR time="87.00" position="-799.40,-40.70" value="6.00"/>
+        <SGAPSpan values="34.96 46.44 56.28 65.70 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="60.00" position="-998.49,-94.09" value="34.96" leader="flow0.6"/>
+        <TGAPSpan values="NA 103.88 29.22 30.52 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="62.00" position="-996.24,-94.11" value="29.22" leader="flow0.6"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.6">
+        <timeSpan values="74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.78 0.23 0.00 0.32 1.88 0.00 0.73 0.00 0.00 1.64 0.00 1.14 0.00 6.00 0.00 0.00 0.00 0.00 0.38 0.00 5.92 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.22 0.00 1.89 0.00 6.00 0.00 0.00 0.00 0.00 0.99 0.36"/>
+        <maxBR time="94.00" position="-863.39,-43.62" value="6.00"/>
+        <SGAPSpan values="3.30 10.20 18.87 26.01 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="74.00" position="-998.49,-94.09" value="3.30" leader="flow0.8"/>
+        <TGAPSpan values="NA 14.28 11.71 6.36 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="77.00" position="-992.39,-93.16" value="6.36" leader="flow0.8"/>
+    </globalMeasures>
+    <conflict begin="67.00" end="121.00" ego="flow0.5" foe="flow0.4">
+        <minTTC time="68.00" position="-801.05,-97.47" type="2" value="0.92"/>
+        <maxDRAC time="68.00" position="-801.05,-97.47" type="2" value="3.69"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="71.00" end="124.00" ego="flow0.5" foe="flow0.6">
+        <minTTC time="73.00" position="-807.02,-97.41" type="3" value="1.09"/>
+        <maxDRAC time="71.00" position="-807.39,-97.31" type="3" value="5.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="79.00" end="124.00" ego="flow0.5" foe="flow3.0">
+        <minTTC time="80.00" position="-806.95,-98.11" type="3" value="1.91"/>
+        <maxDRAC time="79.00" position="-806.95,-98.11" type="3" value="1.78"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="71.00" end="124.00" ego="flow0.6" foe="flow0.5">
+        <minTTC time="73.00" position="-807.02,-97.41" type="2" value="1.09"/>
+        <maxDRAC time="71.00" position="-807.39,-97.31" type="2" value="5.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow1.7">
+        <timeSpan values="84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.60 0.00 0.00 1.07 0.02 0.36 0.00 0.00 2.53 0.00 0.00 1.27 0.00 1.28 0.05 0.00 6.00 0.00 0.00 0.42 0.00 0.34 0.00 0.85 0.70 0.00 1.77 6.00 0.00 0.00 0.00 0.00 0.00 1.18"/>
+        <maxBR time="109.00" position="-798.33,-40.64" value="6.00"/>
+        <SGAPSpan values="8.22 14.99 21.91 27.10 32.13 34.19 34.61 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 59.24 NA NA NA NA NA NA NA"/>
+        <minSGAP time="84.00" position="-998.49,-94.09" value="8.22" leader="flow0.9"/>
+        <TGAPSpan values="NA 15.39 7.16 6.13 4.75 4.62 3.37 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 5.60 NA NA NA NA NA NA NA"/>
+        <minTGAP time="90.00" position="-967.23,-93.42" value="3.37" leader="flow0.9"/>
+    </globalMeasures>
+    <conflict begin="67.00" end="122.00" ego="flow1.4" foe="flow1.3">
+        <minTTC time="67.00" position="-801.02,-94.27" type="2" value="1.10"/>
+        <maxDRAC time="67.00" position="-801.02,-94.27" type="2" value="4.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="78.00" end="129.00" ego="flow3.0" foe="flow0.6">
+        <minTTC time="81.00" position="-812.85,-98.06" type="2" value="0.02"/>
+        <maxDRAC time="81.00" position="-812.85,-98.06" type="2" value="43.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="79.00" end="126.00" ego="flow3.0" foe="flow0.5">
+        <minTTC time="80.00" position="-806.95,-98.11" type="2" value="1.91"/>
+        <maxDRAC time="79.00" position="-806.95,-98.11" type="2" value="1.78"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="79.00" end="127.00" ego="flow3.0" foe="flow1.4">
+        <minTTC time="88.00" position="-806.90,-93.52" type="2" value="0.03"/>
+        <maxDRAC time="88.00" position="-806.90,-93.52" type="2" value="22.10"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="80.00" end="122.00" ego="flow3.0" foe="flow1.3">
+        <minTTC time="87.00" position="-801.01,-93.57" type="2" value="2.26"/>
+        <maxDRAC time="87.00" position="-801.01,-93.57" type="2" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="123.00" end="129.00" ego="flow0.12" foe="flow0.8">
+        <minTTC time="124.00" position="-824.62,-97.94" type="2" value="1.60"/>
+        <maxDRAC time="123.00" position="-824.63,-97.94" type="2" value="2.80"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="87.00" end="131.00" ego="flow0.8" foe="flow0.7">
+        <minTTC time="87.00" position="-824.87,-97.94" type="2" value="1.29"/>
+        <maxDRAC time="87.00" position="-824.87,-97.94" type="2" value="3.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="89.00" end="126.00" ego="flow0.8" foe="flow0.6">
+        <minTTC time="89.00" position="-812.84,-98.06" type="2" value="2.96"/>
+        <maxDRAC time="89.00" position="-812.84,-98.06" type="2" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="67.00" end="121.00" ego="flow0.4" foe="flow0.5">
+        <minTTC time="68.00" position="-801.05,-97.47" type="3" value="0.92"/>
+        <maxDRAC time="68.00" position="-801.05,-97.47" type="3" value="3.69"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="72.00" end="121.00" ego="flow0.4" foe="flow0.6">
+        <minTTC time="72.00" position="-801.05,-97.47" type="3" value="1.96"/>
+        <maxDRAC time="72.00" position="-801.05,-97.47" type="3" value="2.19"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.4">
+        <timeSpan values="36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00 44.00 45.00 46.00 47.00 48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 58.00 59.00 60.00 61.00 62.00 63.00 64.00 65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00 73.00 74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.46 0.00 2.08 0.00 0.00 0.29 0.91 0.40 0.00 0.00 1.04 1.13 0.00 4.48 1.20 4.45 0.01 0.19 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.05 0.62 0.00 0.21 0.09 1.46 0.00 0.55"/>
+        <maxBR time="58.00" position="-801.13,-97.47" value="4.48"/>
+        <SGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+    </globalMeasures>
+    <conflict begin="67.00" end="122.00" ego="flow1.3" foe="flow1.4">
+        <minTTC time="67.00" position="-801.02,-94.27" type="3" value="1.10"/>
+        <maxDRAC time="67.00" position="-801.02,-94.27" type="3" value="4.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="80.00" end="122.00" ego="flow1.3" foe="flow3.0">
+        <minTTC time="87.00" position="-801.01,-93.57" type="3" value="2.26"/>
+        <maxDRAC time="87.00" position="-801.01,-93.57" type="3" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="105.00" end="133.00" ego="flow0.10" foe="flow0.9">
+        <minTTC time="105.00" position="-830.53,-97.88" type="2" value="1.35"/>
+        <maxDRAC time="105.00" position="-830.53,-97.88" type="2" value="4.51"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow1.3">
+        <timeSpan values="39.00 40.00 41.00 42.00 43.00 44.00 45.00 46.00 47.00 48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 58.00 59.00 60.00 61.00 62.00 63.00 64.00 65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00 73.00 74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.98 0.00 0.00 1.86 0.00 0.63 1.15 0.00 0.00 0.86 0.00 1.44 0.00 6.00 4.78 1.61 0.09 0.00 0.01 0.00 0.02 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.04 0.04 0.00 0.31 1.59"/>
+        <maxBR time="60.00" position="-798.62,-94.30" value="6.00"/>
+        <SGAPSpan values="7.66 11.12 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="39.00" position="-998.49,-94.09" value="7.66" leader="flow0.4"/>
+        <TGAPSpan values="NA 4.07 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="40.00" position="-995.89,-93.12" value="4.07" leader="flow0.4"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.5">
+        <timeSpan values="45.00 46.00 47.00 48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 58.00 59.00 60.00 61.00 62.00 63.00 64.00 65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00 73.00 74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.96 0.00 1.11 0.00 0.36 0.00 1.18 0.00 0.00 1.99 0.00 0.57 0.35 1.41 2.71 3.81 2.88 0.02 0.00 0.40 0.00 0.06 0.01 0.00 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.43 0.00 0.00 0.78 1.17 0.00 0.00 0.00 0.97"/>
+        <maxBR time="69.00" position="-803.62,-97.35" value="3.81"/>
+        <SGAPSpan values="62.23 72.88 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 65.97 56.56 44.72 33.46 22.55 13.05 6.26 3.27 3.17 3.07 2.64 2.60 2.52 2.51 2.51 2.51 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 NA NA NA 14.27 17.61 18.21 16.51 18.12 NA 17.47 16.15 17.60 18.32 NA NA NA"/>
+        <minSGAP time="81.00" position="-803.02,-98.15" value="2.50" leader="flow0.4"/>
+        <TGAPSpan values="NA 52.18 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 5.78 6.01 3.78 2.97 2.07 1.37 0.92 1.10 29.45 33.61 6.03 64.78 34.79 239.33 2037.80 343.85 2695.93 1728.90 1069.94 15004.46 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 2.43 2.21 1.88 1.45 1.83 NA 1.47 1.46 1.77 1.81 NA NA NA"/>
+        <minTGAP time="68.00" position="-805.96,-97.33" value="0.92" leader="flow0.4"/>
+    </globalMeasures>
+    <conflict begin="81.00" end="135.00" ego="flow3.0" foe="flow0.7">
+        <minTTC time="83.00" position="-820.73,-96.28" type="3" value="0.54"/>
+        <maxDRAC time="83.00" position="-820.73,-96.28" type="3" value="5.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="108.00" end="130.00" ego="flow3.0" foe="flow0.10">
+        <minTTC time="110.00" position="-814.81,-94.25" type="3" value="1.43"/>
+        <maxDRAC time="110.00" position="-814.81,-94.25" type="3" value="2.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="119.00" end="129.00" ego="flow3.0" foe="flow0.11">
+        <minTTC time="120.00" position="-814.81,-94.25" type="3" value="2.48"/>
+        <maxDRAC time="120.00" position="-814.81,-94.25" type="3" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="81.00" end="135.00" ego="flow0.7" foe="flow3.0">
+        <minTTC time="83.00" position="-820.73,-96.28" type="2" value="0.54"/>
+        <maxDRAC time="83.00" position="-820.73,-96.28" type="2" value="5.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="82.00" end="127.00" ego="flow0.7" foe="flow0.6">
+        <minTTC time="89.00" position="-812.84,-98.06" type="2" value="1.12"/>
+        <maxDRAC time="82.00" position="-812.85,-98.06" type="2" value="1.58"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="87.00" end="131.00" ego="flow0.7" foe="flow0.8">
+        <minTTC time="87.00" position="-824.87,-97.94" type="3" value="1.29"/>
+        <maxDRAC time="87.00" position="-824.87,-97.94" type="3" value="3.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="99.00" end="128.00" ego="flow0.7" foe="flow0.9">
+        <minTTC time="100.00" position="-818.74,-98.00" type="3" value="1.71"/>
+        <maxDRAC time="100.00" position="-818.74,-98.00" type="3" value="1.74"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="124.00" end="126.00" ego="flow0.7" foe="flow0.12">
+        <minTTC time="124.00" position="-818.43,-98.00" type="3" value="2.80"/>
+        <maxDRAC time="124.00" position="-818.43,-98.00" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="79.00" end="127.00" ego="flow1.4" foe="flow3.0">
+        <minTTC time="88.00" position="-806.90,-93.52" type="3" value="0.03"/>
+        <maxDRAC time="88.00" position="-806.90,-93.52" type="3" value="22.10"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow1.4">
+        <timeSpan values="48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 58.00 59.00 60.00 61.00 62.00 63.00 64.00 65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00 73.00 74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.57 0.00 0.00 1.59 0.00 1.60 3.35 5.02 3.50 0.20 0.51 0.19 0.40 0.00 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.13 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.64 0.00 1.57"/>
+        <maxBR time="68.00" position="-805.70,-94.23" value="5.02"/>
+        <SGAPSpan values="2.95 7.57 NA NA NA NA NA NA NA NA NA NA NA NA NA 61.39 48.47 33.71 20.57 10.76 5.95 4.64 3.54 2.94 2.52 2.51 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.96 NA NA NA NA 22.26 28.01 33.04 36.73 NA NA NA 39.71 37.35 NA NA NA"/>
+        <minSGAP time="77.00" position="-802.98,-94.25" value="2.50" leader="flow1.3"/>
+        <TGAPSpan values="NA 105.59 NA NA NA NA NA NA NA NA NA NA NA NA NA 4.22 3.75 2.28 1.56 1.09 1.24 3.55 3.20 4.89 6.09 194.26 277.44 5836.58 14695.45 10857.61 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 5.12 5.26 5.23 4.23 NA NA NA 3.21 2.82 NA NA NA"/>
+        <minTGAP time="67.00" position="-809.48,-94.19" value="1.09" leader="flow1.3"/>
+    </globalMeasures>
+    <conflict begin="72.00" end="121.00" ego="flow0.6" foe="flow0.4">
+        <minTTC time="72.00" position="-801.05,-97.47" type="2" value="1.96"/>
+        <maxDRAC time="72.00" position="-801.05,-97.47" type="2" value="2.19"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="78.00" end="127.00" ego="flow0.6" foe="flow3.0">
+        <minTTC time="81.00" position="-812.85,-98.06" type="3" value="0.02"/>
+        <maxDRAC time="81.00" position="-812.85,-98.06" type="3" value="43.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="82.00" end="127.00" ego="flow0.6" foe="flow0.7">
+        <minTTC time="89.00" position="-812.84,-98.06" type="3" value="1.12"/>
+        <maxDRAC time="82.00" position="-812.85,-98.06" type="3" value="1.58"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="89.00" end="126.00" ego="flow0.6" foe="flow0.8">
+        <minTTC time="89.00" position="-812.84,-98.06" type="3" value="2.96"/>
+        <maxDRAC time="89.00" position="-812.84,-98.06" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="100.00" end="124.00" ego="flow0.6" foe="flow0.9">
+        <minTTC time="100.00" position="-812.84,-98.06" type="3" value="2.97"/>
+        <maxDRAC time="100.00" position="-812.84,-98.06" type="3" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.6">
+        <timeSpan values="54.00 55.00 56.00 57.00 58.00 59.00 60.00 61.00 62.00 63.00 64.00 65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00 73.00 74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.16 0.20 0.00 0.00 0.00 0.00 0.00 0.24 0.47 0.00 4.89 4.16 3.05 0.71 0.62 0.00 0.00 0.01 0.07 0.05 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.12 0.21 0.00 1.32 0.68 0.32 0.00 0.24"/>
+        <maxBR time="72.00" position="-814.21,-97.34" value="4.89"/>
+        <SGAPSpan values="48.97 57.84 63.12 NA NA NA NA NA NA 66.20 NA NA NA NA 54.01 43.50 30.59 17.24 9.11 4.75 3.48 2.85 2.82 2.80 2.67 2.55 2.51 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 4.94 7.37 NA NA 17.77 21.68 22.13 21.43 21.37 NA 17.95 16.64 16.64 17.90 16.48 NA"/>
+        <minSGAP time="86.00" position="-808.91,-98.09" value="2.50" leader="flow0.5"/>
+        <TGAPSpan values="NA 33.69 15.02 NA NA NA NA NA NA 5.72 NA NA NA NA 3.94 3.23 2.35 1.28 1.06 1.08 2.58 4.43 113.94 84.05 20.66 21.28 53.83 3382.39 1611.13 2117.08 24842.69 7938.77 5265.44 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 10.58 NA NA 2.70 2.92 2.34 1.78 1.79 NA 1.41 1.46 1.55 1.72 1.36 NA"/>
+        <minTGAP time="72.00" position="-814.21,-97.34" value="1.06" leader="flow0.5"/>
+    </globalMeasures>
+    <conflict begin="114.00" end="141.00" ego="flow0.11" foe="flow0.9">
+        <minTTC time="115.00" position="-830.53,-97.88" type="2" value="0.76"/>
+        <maxDRAC time="115.00" position="-830.53,-97.88" type="2" value="6.37"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="115.00" end="133.00" ego="flow0.11" foe="flow0.10">
+        <minTTC time="120.00" position="-820.71,-93.38" type="2" value="0.98"/>
+        <maxDRAC time="120.00" position="-820.71,-93.38" type="2" value="2.54"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow3.0">
+        <timeSpan values="60.00 61.00 62.00 63.00 64.00 65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00 73.00 74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.99 2.82 2.94 2.64 2.18 2.95 2.13 0.00 0.00 0.00 0.00 0.00 2.50 1.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.13 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00"/>
+        <maxBR time="81.00" position="-812.88,-97.36" value="2.95"/>
+        <SGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52.56 36.93 24.13 14.36 7.22 2.18 0.05 0.05 0.05 7.55 7.55 5.55 1.55 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.39 0.26 1.41 1.68 4.40 NA NA 14.70 18.58 22.71 36.08 NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="88.00" position="-806.95,-94.33" value="0.05" leader="flow1.4"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 3.16 2.36 1.88 1.45 0.99 0.43 0.02 70.97 33.59 6391.16 74998.57 2.78 0.39 0.03 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 26426515386495.02 200212608591068.44 0.77 6.87 1.23 2.70 NA NA 3.18 2.85 3.00 4.54 NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="81.00" position="-812.88,-97.36" value="0.02" leader="flow0.6"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.7">
+        <timeSpan values="65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00 73.00 74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.96 0.00 1.24 0.88 0.00 6.00 2.03 5.51 0.00 0.00 0.00 0.00 0.30 2.47 0.40 0.34 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.07 1.08"/>
+        <maxBR time="82.00" position="-827.56,-97.21" value="6.00"/>
+        <SGAPSpan values="7.04 NA NA NA NA NA NA NA NA NA 46.92 NA NA NA NA 27.91 16.36 8.68 3.03 12.94 12.59 12.05 10.30 6.79 3.58 2.84 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 3.20 5.11 9.35 12.88 NA NA 24.33 NA 44.74 8.98 13.22 17.72 22.16 24.78 NA NA NA NA NA NA NA"/>
+        <minSGAP time="96.00" position="-814.81,-98.04" value="2.50" leader="flow0.6"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA 3.21 NA NA NA NA 2.19 1.20 1.13 0.54 92.21 36.30 22.12 5.88 1.93 1.12 3.86 7.37 6325.74 23135.82 NA 5926.07 21779.22 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 136.46 26.19 4.22 NA NA 3.47 NA 20.26 3.72 3.06 3.34 3.19 2.66 NA NA NA NA NA NA NA"/>
+        <minTGAP time="83.00" position="-823.12,-97.25" value="0.54" leader="flow3.0"/>
+    </globalMeasures>
+    <conflict begin="98.00" end="142.00" ego="flow0.8" foe="flow0.9">
+        <minTTC time="100.00" position="-824.64,-97.94" type="3" value="0.45"/>
+        <maxDRAC time="100.00" position="-824.64,-97.94" type="3" value="6.66"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="98.00" end="142.00" ego="flow0.9" foe="flow0.8">
+        <minTTC time="100.00" position="-824.64,-97.94" type="2" value="0.45"/>
+        <maxDRAC time="100.00" position="-824.64,-97.94" type="2" value="6.66"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="99.00" end="128.00" ego="flow0.9" foe="flow0.7">
+        <minTTC time="100.00" position="-818.74,-98.00" type="2" value="1.71"/>
+        <maxDRAC time="100.00" position="-818.74,-98.00" type="2" value="1.74"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="100.00" end="124.00" ego="flow0.9" foe="flow0.6">
+        <minTTC time="100.00" position="-812.84,-98.06" type="2" value="2.97"/>
+        <maxDRAC time="100.00" position="-812.84,-98.06" type="2" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="105.00" end="133.00" ego="flow0.9" foe="flow0.10">
+        <minTTC time="105.00" position="-830.53,-97.88" type="3" value="1.35"/>
+        <maxDRAC time="105.00" position="-830.53,-97.88" type="3" value="4.51"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="114.00" end="141.00" ego="flow0.9" foe="flow0.11">
+        <minTTC time="115.00" position="-830.53,-97.88" type="3" value="0.76"/>
+        <maxDRAC time="115.00" position="-830.53,-97.88" type="3" value="6.37"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="108.00" end="137.00" ego="flow0.10" foe="flow3.0">
+        <minTTC time="110.00" position="-814.81,-94.25" type="2" value="1.43"/>
+        <maxDRAC time="110.00" position="-814.81,-94.25" type="2" value="2.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="115.00" end="133.00" ego="flow0.10" foe="flow0.11">
+        <minTTC time="120.00" position="-820.71,-93.38" type="3" value="0.98"/>
+        <maxDRAC time="120.00" position="-820.71,-93.38" type="3" value="2.54"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.10">
+        <timeSpan values="90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.17 0.08 0.00 0.30 0.56 0.00 1.48 0.00 2.94 6.00 0.00 0.00 0.00 2.82 1.55 0.68 0.54 0.12 0.11 0.02 0.02 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.50 0.00 0.87 0.00 0.00 0.00 1.15 0.00 0.00 0.00 0.00 1.08 0.00 0.00 0.98 0.94 0.00 1.73"/>
+        <maxBR time="107.00" position="-833.63,-94.65" value="6.00"/>
+        <SGAPSpan values="27.89 NA NA NA NA NA NA NA NA NA NA NA NA NA NA 16.47 27.18 23.94 19.75 14.25 8.38 5.33 3.84 3.02 2.75 2.59 2.54 2.52 2.51 2.51 2.51 2.50 2.84 2.80 3.89 4.23 5.94 5.71 8.10 NA NA 49.51 55.64 NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="121.00" position="-816.77,-93.42" value="2.50" leader="flow3.0"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 1.35 2.94 7.38 4.72 2.59 1.43 1.75 2.56 3.72 9.96 16.31 54.25 109.83 532.73 999.49 850.08 539.15 971.61 11.78 14.19 3.27 7.49 1.84 3.61 NA NA 6.70 8.92 NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="105.00" position="-843.46,-96.05" value="1.35" leader="flow0.9"/>
+    </globalMeasures>
+    <conflict begin="115.00" end="145.00" ego="flow0.8" foe="flow0.11">
+        <minTTC time="115.00" position="-824.63,-97.94" type="3" value="1.53"/>
+        <maxDRAC time="115.00" position="-824.63,-97.94" type="3" value="3.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="123.00" end="129.00" ego="flow0.8" foe="flow0.12">
+        <minTTC time="124.00" position="-824.62,-97.94" type="3" value="1.60"/>
+        <maxDRAC time="123.00" position="-824.63,-97.94" type="3" value="2.80"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.8">
+        <timeSpan values="72.00 73.00 74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.78 0.00 0.58 0.00 0.09 1.80 0.43 4.57 0.92 3.47 0.00 1.96 0.00 0.25 0.11 0.00 0.16 0.00 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.67 1.55 0.00 0.26 0.00 0.00 0.00 0.29 0.00 0.00 0.00 0.00 0.00 0.00 0.59 0.00"/>
+        <maxBR time="88.00" position="-829.15,-97.19" value="4.57"/>
+        <SGAPSpan values="35.72 43.25 50.24 57.24 NA NA NA NA NA NA NA NA NA 31.23 20.61 11.63 8.97 6.94 5.90 3.90 3.51 3.03 2.80 2.67 2.51 2.51 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.54 2.88 5.73 6.91 10.44 12.30 7.96 NA NA NA 8.24 10.96 13.41 13.53 15.04 17.94 NA NA 30.58 31.91 NA NA NA"/>
+        <minSGAP time="101.00" position="-820.71,-97.98" value="2.50" leader="flow0.7"/>
+        <TGAPSpan values="NA 15.67 9.07 7.52 NA NA NA NA NA NA NA NA NA 2.41 1.85 1.08 1.46 1.32 3.33 1.66 9.15 6.30 11.91 20.89 15.55 2270.98 413.36 18740.91 9485.04 5920.72 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 149.94 28.67 2.59 3.38 2.39 1.49 NA NA NA 2.09 2.59 1.96 1.43 1.64 1.91 NA NA 2.70 2.43 NA NA NA"/>
+        <minTGAP time="87.00" position="-834.00,-97.15" value="1.08" leader="flow0.7"/>
+    </globalMeasures>
+    <conflict begin="115.00" end="145.00" ego="flow0.11" foe="flow0.8">
+        <minTTC time="115.00" position="-824.63,-97.94" type="2" value="1.53"/>
+        <maxDRAC time="115.00" position="-824.63,-97.94" type="2" value="3.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="119.00" end="129.00" ego="flow0.11" foe="flow3.0">
+        <minTTC time="120.00" position="-814.81,-94.25" type="2" value="2.48"/>
+        <maxDRAC time="120.00" position="-814.81,-94.25" type="2" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.11">
+        <timeSpan values="99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.01 2.01 0.00 0.00 0.19 0.00 0.00 4.20 5.99 3.22 0.00 0.00 0.00 4.15 0.00 1.22 0.00 0.00 0.00 0.27 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.46 0.00 1.01 0.83 0.00"/>
+        <maxBR time="116.00" position="-833.36,-95.15" value="5.99"/>
+        <SGAPSpan values="6.28 13.06 20.82 28.44 36.98 44.32 NA NA NA NA NA NA NA NA NA 16.92 7.28 16.05 15.64 12.88 9.86 4.88 4.05 2.73 2.87 2.93 3.91 3.97 6.61 7.12 8.70 11.18 14.22 NA NA 17.64 20.93 24.57 26.77 NA NA 25.81 22.76 21.76 20.05 NA NA"/>
+        <minSGAP time="122.00" position="-822.85,-93.36" value="2.73" leader="flow0.10"/>
+        <TGAPSpan values="NA 7.75 5.69 5.73 6.24 5.59 NA NA NA NA NA NA NA NA NA 1.22 0.76 4.40 36.73 4.66 3.26 0.98 4.85 2.07 29.74 13.65 12.30 5.37 14.20 4.12 3.87 2.77 3.27 NA NA 2.17 2.53 2.75 2.88 NA NA 1.85 1.69 1.61 1.61 NA NA"/>
+        <minTGAP time="115.00" position="-836.24,-96.12" value="0.76" leader="flow0.9"/>
+    </globalMeasures>
+    <conflict begin="123.00" end="147.00" ego="flow0.12" foe="flow0.9">
+        <minTTC time="124.00" position="-830.53,-97.88" type="2" value="0.58"/>
+        <maxDRAC time="124.00" position="-830.53,-97.88" type="2" value="6.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="124.00" end="126.00" ego="flow0.12" foe="flow0.7">
+        <minTTC time="124.00" position="-818.43,-98.00" type="2" value="2.80"/>
+        <maxDRAC time="124.00" position="-818.43,-98.00" type="2" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.12">
+        <timeSpan values="108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.16 0.00 0.00 1.41 0.00 0.00 0.06 0.00 3.03 2.98 6.00 1.22 0.05 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.08 0.00 0.27 0.00 0.00 0.00 0.00 1.18 0.00 0.06 1.46"/>
+        <maxBR time="125.00" position="-832.80,-96.16" value="6.00"/>
+        <SGAPSpan values="66.27 NA NA NA NA NA NA NA NA NA NA NA NA NA 22.01 11.66 4.28 2.92 8.84 9.20 10.19 11.46 12.62 12.83 12.00 11.47 12.72 NA 12.93 14.52 15.13 18.14 21.21 NA NA 23.18 22.43 22.66 NA NA"/>
+        <minSGAP time="125.00" position="-832.80,-96.16" value="2.92" leader="flow0.9"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA 1.64 1.13 0.58 2.12 57.75 85.38 13.91 11.69 4.40 3.10 2.01 1.76 1.85 NA 1.32 1.89 1.57 1.94 1.95 NA NA 1.71 1.81 1.67 NA NA"/>
+        <minTGAP time="124.00" position="-833.89,-97.15" value="0.58" leader="flow0.9"/>
+    </globalMeasures>
+    <conflict begin="123.00" end="147.00" ego="flow0.9" foe="flow0.12">
+        <minTTC time="124.00" position="-830.53,-97.88" type="3" value="0.58"/>
+        <maxDRAC time="124.00" position="-830.53,-97.88" type="3" value="6.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.9">
+        <timeSpan values="81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00 148.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.37 0.00 2.32 0.00 0.00 1.71 0.13 0.00 0.86 0.00 0.00 0.00 4.91 1.14 5.82 0.10 0.02 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.94 1.50 0.00 0.00 1.65 0.00 0.00 0.00 0.00 0.87 0.11 0.00 0.00 0.25 0.06 0.00 1.30 0.00"/>
+        <maxBR time="101.00" position="-826.61,-97.22" value="5.82"/>
+        <SGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 27.66 15.67 8.59 2.65 2.53 2.51 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.52 2.70 5.18 6.74 9.05 10.04 8.39 6.13 7.46 7.36 NA NA 14.87 16.73 16.47 15.86 17.36 NA NA 24.52 26.90 30.07 NA NA NA"/>
+        <minSGAP time="108.00" position="-826.60,-97.92" value="2.50" leader="flow0.8"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 2.65 1.31 1.21 0.45 20.34 117.32 1697.06 1140.70 2590.71 NA NA 13749.85 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 24473.16 157.16 27.75 4.39 3.19 2.31 1.57 1.40 2.59 1.82 NA NA 2.57 2.30 1.70 1.53 1.83 NA NA 2.29 2.58 2.89 NA NA NA"/>
+        <minTGAP time="100.00" position="-826.70,-96.22" value="0.45" leader="flow0.8"/>
+    </globalMeasures>
+    <conflict begin="147.00" end="149.00" ego="flow1.8" foe="flow1.9">
+        <minTTC time="147.00" position="-723.64,-83.21" type="3" value="1.09"/>
+        <maxDRAC time="147.00" position="-723.64,-83.21" type="3" value="4.76"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="147.00" end="149.00" ego="flow1.9" foe="flow1.8">
+        <minTTC time="147.00" position="-723.64,-83.21" type="2" value="1.09"/>
+        <maxDRAC time="147.00" position="-723.64,-83.21" type="2" value="4.76"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.13">
+        <timeSpan values="117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00 148.00 149.00 150.00 151.00 152.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.54 0.00 1.23 0.00 0.69 0.00 0.00 0.61 1.02 0.00 0.00 1.29 0.00 0.00 1.10 0.00 0.00 0.38 0.00 1.34 0.07 0.00 0.75 0.00 0.49 0.32"/>
+        <maxBR time="127.00" position="-944.12,-94.67" value="2.54"/>
+        <SGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 52.20 NA NA NA NA 36.85 35.80 35.82 NA NA NA NA 35.68 36.68 NA NA NA NA"/>
+        <minSGAP time="147.00" position="-714.92,-96.59" value="35.68" leader="flow0.9"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 4.91 NA NA NA NA 3.19 3.43 3.39 NA NA NA NA 3.37 3.32 NA NA NA NA"/>
+        <minTGAP time="140.00" position="-800.19,-97.48" value="3.19" leader="flow0.9"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.8">
+        <timeSpan values="96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00 148.00 149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.26 0.10 0.00 0.00 1.67 0.00 0.00 1.99 0.00 0.62 0.00 1.82 5.97 0.00 0.00 0.00 0.00 0.00 0.00 0.43 0.94 6.00 3.38 3.84 0.26 0.00 0.82 0.16 0.01 0.00 0.02 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00"/>
+        <maxBR time="126.00" position="-723.64,-81.93" value="6.00"/>
+        <SGAPSpan values="33.93 44.12 53.62 60.37 NA NA NA NA 58.35 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 35.16 48.52 NA NA 10.03 21.41 4.08 17.57 NA 14.27 27.86 41.38 53.45 NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="141.00" position="-723.65,-87.61" value="4.08" leader="flow0.11"/>
+        <TGAPSpan values="NA 17.53 17.61 10.56 NA NA NA NA 3.82 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 54913.77 69123.90 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="104.00" position="-928.68,-94.83" value="3.82" leader="flow0.10"/>
+    </globalMeasures>
+    <globalMeasures ego="flow4.0">
+        <timeSpan values="120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00 148.00 149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.87 0.91 0.00 0.00 0.38 0.00 1.13 0.00 0.00 0.00 0.66 0.00 0.00 1.49 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.28"/>
+        <maxBR time="143.00" position="-799.61,-97.49" value="1.49"/>
+        <SGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA 21.66 22.88 23.88 NA NA 27.62 27.49 27.45 28.14 NA NA 26.08 25.75 26.87 26.22 NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="132.00" position="-907.55,-95.28" value="21.66" leader="flow0.13"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA 2.11 2.07 2.24 NA NA 2.75 2.51 2.38 2.59 NA NA 2.46 2.39 2.47 2.32 NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="133.00" position="-899.04,-95.55" value="2.07" leader="flow0.13"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.9">
+        <timeSpan values="111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00 148.00 149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00 157.00 158.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.28 0.13 0.00 0.60 0.12 0.00 0.57 0.63 0.00 1.27 0.00 5.90 0.00 0.00 0.00 0.00 0.00 1.65 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.86 0.00 1.03 0.48 4.47 3.36 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00"/>
+        <maxBR time="130.00" position="-863.66,-43.62" value="5.90"/>
+        <SGAPSpan values="7.96 15.29 21.37 27.04 31.24 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 44.30 32.44 21.61 11.25 NA NA NA 10.70 12.02 14.03 15.56 15.30 16.39 NA NA"/>
+        <minSGAP time="111.00" position="-998.49,-94.09" value="7.96" leader="flow0.12"/>
+        <TGAPSpan values="NA 14.67 6.25 4.51 4.27 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 3.82 2.73 2.00 1.09 NA NA NA 3.29 2.15 2.51 2.23 1.66 1.58 NA NA"/>
+        <minTGAP time="147.00" position="-723.61,-73.30" value="1.09" leader="flow1.8"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.10">
+        <timeSpan values="122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00 148.00 149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.91 0.72 0.54 0.00 2.17 0.00 0.00 0.68 0.00 0.00 0.00 1.15 0.23 4.93 0.00 0.00 0.00 0.00 1.72 0.00 2.34 2.81 0.00 0.00 0.00 2.57 0.00 1.61 0.00 0.01 0.17 0.33 0.00 5.30 0.00 0.00 0.00 0.00 1.37 0.00"/>
+        <maxBR time="165.00" position="-723.65,-86.58" value="5.30"/>
+        <SGAPSpan values="4.31 9.37 15.21 22.51 28.97 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="122.00" position="-998.49,-94.09" value="4.31" leader="flow0.13"/>
+        <TGAPSpan values="NA 7.17 5.93 5.98 4.95 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="126.00" position="-985.67,-93.23" value="4.95" leader="flow0.13"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.11">
+        <timeSpan values="132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00 148.00 149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.54 0.48 0.00 0.35 0.00 0.00 0.28 0.18 0.95 0.00 0.57 0.00 1.90 0.04 0.76 0.00 0.00 0.96 4.72 0.00 0.00 0.00 0.66 0.00 1.25 0.00 2.25 0.00 0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.25"/>
+        <maxBR time="170.00" position="-723.65,-87.52" value="6.00"/>
+        <SGAPSpan values="30.59 41.03 50.19 55.77 58.50 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 56.63 NA NA NA NA NA 50.87 53.79 NA NA NA NA 44.03 NA NA NA 37.36 41.50 43.87 NA NA NA NA NA"/>
+        <minSGAP time="132.00" position="-998.49,-94.09" value="30.59" leader="flow0.14"/>
+        <TGAPSpan values="NA 129.75 20.95 12.14 8.29 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 5.23 NA NA NA NA NA 7.93 6.53 NA NA NA NA 3.98 NA NA NA 3.31 7.84 6.01 NA NA NA NA NA"/>
+        <minTGAP time="169.00" position="-723.64,-82.85" value="3.31" leader="flow1.10"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.12">
+        <timeSpan values="147.00 148.00 149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00 180.00 181.00 182.00 183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.60 0.35 0.93 0.00 1.35 0.00 0.80 0.32 0.00 0.65 0.74 5.26 0.00 0.00 0.00 0.00 0.00 2.17 4.90 0.00 0.00 0.00 2.38 0.00 1.87 0.00 0.00 1.46 0.00 3.88 0.00 0.00 0.00 0.22 0.00"/>
+        <maxBR time="169.00" position="-863.05,-43.62" value="5.26"/>
+        <SGAPSpan values="4.73 9.87 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="147.00" position="-998.49,-94.09" value="4.73" leader="flow0.16"/>
+        <TGAPSpan values="NA 12.09 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="148.00" position="-997.71,-93.10" value="12.09" leader="flow0.16"/>
+    </globalMeasures>
+    <conflict begin="161.00" end="212.00" ego="flow0.16" foe="flow0.14">
+        <minTTC time="163.00" position="-801.05,-97.47" type="2" value="0.72"/>
+        <maxDRAC time="162.00" position="-801.05,-97.47" type="2" value="4.70"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="175.00" end="211.00" ego="flow1.13" foe="flow0.15">
+        <minTTC time="176.00" position="-801.02,-94.27" type="2" value="0.72"/>
+        <maxDRAC time="176.00" position="-801.02,-94.27" type="2" value="6.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="169.00" end="215.00" ego="flow0.16" foe="flow0.17">
+        <minTTC time="171.00" position="-806.95,-97.41" type="3" value="0.69"/>
+        <maxDRAC time="169.00" position="-806.98,-97.41" type="3" value="4.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="169.00" end="215.00" ego="flow0.17" foe="flow0.16">
+        <minTTC time="171.00" position="-806.95,-97.41" type="2" value="0.69"/>
+        <maxDRAC time="169.00" position="-806.98,-97.41" type="2" value="4.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="170.00" end="212.00" ego="flow0.17" foe="flow0.14">
+        <minTTC time="170.00" position="-801.05,-97.47" type="2" value="2.04"/>
+        <maxDRAC time="170.00" position="-801.05,-97.47" type="2" value="1.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="185.00" end="218.00" ego="flow1.14" foe="flow0.18">
+        <minTTC time="188.00" position="-812.83,-94.16" type="2" value="1.52"/>
+        <maxDRAC time="188.00" position="-812.83,-94.16" type="2" value="0.61"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="204.00" end="219.00" ego="flow0.21" foe="flow0.20">
+        <minTTC time="204.00" position="-818.74,-97.30" type="2" value="1.88"/>
+        <maxDRAC time="204.00" position="-818.74,-97.30" type="2" value="2.63"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="180.00" end="215.00" ego="flow0.16" foe="flow0.18">
+        <minTTC time="180.00" position="-806.94,-97.41" type="3" value="1.84"/>
+        <maxDRAC time="180.00" position="-806.94,-97.41" type="3" value="2.19"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="186.00" end="215.00" ego="flow0.16" foe="flow1.14">
+        <minTTC time="186.00" position="-806.94,-97.41" type="3" value="1.85"/>
+        <maxDRAC time="186.00" position="-806.94,-97.41" type="3" value="2.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="197.00" end="215.00" ego="flow0.16" foe="flow0.20">
+        <minTTC time="197.00" position="-806.94,-97.41" type="3" value="1.44"/>
+        <maxDRAC time="197.00" position="-806.94,-97.41" type="3" value="4.76"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="185.00" end="222.00" ego="flow1.14" foe="flow0.17">
+        <minTTC time="186.00" position="-812.84,-97.36" type="2" value="0.87"/>
+        <maxDRAC time="185.00" position="-812.84,-97.36" type="2" value="5.53"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="186.00" end="215.00" ego="flow1.14" foe="flow0.16">
+        <minTTC time="186.00" position="-806.94,-97.41" type="2" value="1.85"/>
+        <maxDRAC time="186.00" position="-806.94,-97.41" type="2" value="2.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="188.00" end="221.00" ego="flow1.14" foe="flow0.19">
+        <minTTC time="189.00" position="-818.94,-94.30" type="3" value="0.83"/>
+        <maxDRAC time="189.00" position="-818.94,-94.30" type="3" value="6.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="188.00" end="221.00" ego="flow0.19" foe="flow1.14">
+        <minTTC time="189.00" position="-818.94,-94.30" type="2" value="0.83"/>
+        <maxDRAC time="189.00" position="-818.94,-94.30" type="2" value="6.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="189.00" end="218.00" ego="flow0.19" foe="flow0.18">
+        <minTTC time="189.00" position="-812.81,-94.16" type="2" value="1.56"/>
+        <maxDRAC time="189.00" position="-812.81,-94.16" type="2" value="3.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="155.00" end="223.00" ego="flow0.15" foe="flow0.14">
+        <minTTC time="156.00" position="-801.05,-97.47" type="2" value="1.00"/>
+        <maxDRAC time="155.00" position="-801.05,-97.47" type="2" value="4.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="175.00" end="211.00" ego="flow0.15" foe="flow1.13">
+        <minTTC time="176.00" position="-801.02,-94.27" type="3" value="0.72"/>
+        <maxDRAC time="176.00" position="-801.02,-94.27" type="3" value="6.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="181.00" end="211.00" ego="flow0.15" foe="flow0.18">
+        <minTTC time="184.00" position="-801.02,-94.27" type="3" value="2.39"/>
+        <maxDRAC time="184.00" position="-801.02,-94.27" type="3" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.15">
+        <timeSpan values="136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00 148.00 149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00 180.00 181.00 182.00 183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.74 0.00 1.06 0.00 0.09 1.70 0.00 0.00 2.31 0.00 0.00 4.69 5.38 1.31 0.00 0.00 3.00 1.28 0.36 0.00 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.21 0.00 0.00 0.99 0.08 0.00 0.00"/>
+        <maxBR time="157.00" position="-805.23,-95.43" value="5.38"/>
+        <SGAPSpan values="9.36 16.03 22.44 28.68 33.51 34.82 33.31 NA NA NA NA NA NA NA NA 60.28 47.70 37.30 25.84 14.09 7.03 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="156.00" position="-806.56,-96.42" value="7.03" leader="flow0.14"/>
+        <TGAPSpan values="NA 11.06 7.90 7.31 5.37 3.78 2.88 NA NA NA NA NA NA NA NA 5.32 3.75 3.58 2.25 1.20 1.00 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="156.00" position="-806.56,-96.42" value="1.00" leader="flow0.14"/>
+    </globalMeasures>
+    <conflict begin="155.00" end="223.00" ego="flow0.14" foe="flow0.15">
+        <minTTC time="156.00" position="-801.05,-97.47" type="3" value="1.00"/>
+        <maxDRAC time="155.00" position="-801.05,-97.47" type="3" value="4.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="161.00" end="212.00" ego="flow0.14" foe="flow0.16">
+        <minTTC time="163.00" position="-801.05,-97.47" type="3" value="0.72"/>
+        <maxDRAC time="162.00" position="-801.05,-97.47" type="3" value="4.70"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="170.00" end="212.00" ego="flow0.14" foe="flow0.17">
+        <minTTC time="170.00" position="-801.05,-97.47" type="3" value="2.04"/>
+        <maxDRAC time="170.00" position="-801.05,-97.47" type="3" value="1.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="198.00" end="212.00" ego="flow0.14" foe="flow0.20">
+        <minTTC time="198.00" position="-801.05,-97.47" type="3" value="2.54"/>
+        <maxDRAC time="198.00" position="-801.05,-97.47" type="3" value="1.52"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="204.00" end="223.00" ego="flow0.21" foe="flow1.15">
+        <minTTC time="205.00" position="-824.78,-97.24" type="2" value="1.00"/>
+        <maxDRAC time="204.00" position="-825.22,-97.23" type="2" value="4.67"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.14">
+        <timeSpan values="126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00 148.00 149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00 180.00 181.00 182.00 183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.39 0.39 0.00 0.49 1.64 0.00 1.09 0.63 0.00 0.00 0.48 0.23 0.41 0.81 4.96 3.09 1.03 0.00 0.12 0.02 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.40 0.00 2.30 0.00 0.00 0.00"/>
+        <maxBR time="149.00" position="-798.17,-97.50" value="4.96"/>
+        <SGAPSpan values="8.49 49.75 57.37 NA NA NA NA NA NA NA 39.69 38.20 NA NA NA NA 43.02 43.52 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="126.00" position="-998.49,-94.09" value="8.49" leader="flow1.10"/>
+        <TGAPSpan values="NA 20.11 13.21 NA NA NA NA NA NA NA 4.06 3.31 NA NA NA NA 4.45 4.31 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="137.00" position="-904.11,-95.39" value="3.31" leader="flow4.0"/>
+    </globalMeasures>
+    <conflict begin="180.00" end="214.00" ego="flow1.13" foe="flow0.18">
+        <minTTC time="184.00" position="-806.91,-94.21" type="3" value="0.77"/>
+        <maxDRAC time="184.00" position="-806.91,-94.21" type="3" value="3.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow1.13">
+        <timeSpan values="156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00 180.00 181.00 182.00 183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.51 0.00 0.00 1.20 0.00 2.31 0.00 0.51 3.18 6.00 3.58 0.17 0.11 0.02 0.03 0.02 0.00 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.22 0.00 0.00 0.00 0.79 0.00 0.40 0.11 0.08 0.35 0.00 0.00"/>
+        <maxBR time="177.00" position="-803.52,-94.25" value="6.00"/>
+        <SGAPSpan values="3.76 10.31 17.08 NA NA NA NA NA NA NA NA NA NA NA NA NA 57.20 43.75 30.14 17.04 7.11 3.19 2.84 2.66 2.60 2.54 2.52 2.51 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 NA NA NA 11.06 12.53 14.64 16.34 16.81 NA NA 17.24 16.50 17.42 19.14 NA NA"/>
+        <minSGAP time="188.00" position="-802.98,-94.25" value="2.50" leader="flow0.15"/>
+        <TGAPSpan values="NA 16.51 18.17 NA NA NA NA NA NA NA NA NA NA NA NA NA 3.63 3.25 2.21 1.30 0.72 0.81 8.20 14.85 38.46 48.49 103.26 484.12 255.38 2190.29 1674.91 6216.34 9383.94 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 2.00 2.35 1.98 1.58 1.62 NA NA 1.52 1.47 1.56 1.77 NA NA"/>
+        <minTGAP time="176.00" position="-806.61,-94.22" value="0.72" leader="flow0.15"/>
+    </globalMeasures>
+    <conflict begin="200.00" end="225.00" ego="flow1.15" foe="flow0.20">
+        <minTTC time="201.00" position="-818.80,-97.30" type="2" value="0.91"/>
+        <maxDRAC time="200.00" position="-818.86,-97.30" type="2" value="6.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="201.00" end="217.00" ego="flow1.15" foe="flow0.17">
+        <minTTC time="201.00" position="-812.84,-97.36" type="2" value="1.97"/>
+        <maxDRAC time="201.00" position="-812.84,-97.36" type="2" value="1.80"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="204.00" end="223.00" ego="flow1.15" foe="flow0.21">
+        <minTTC time="205.00" position="-824.78,-97.24" type="3" value="1.00"/>
+        <maxDRAC time="204.00" position="-825.22,-97.23" type="3" value="4.67"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="209.00" end="222.00" ego="flow1.15" foe="flow1.16">
+        <minTTC time="209.00" position="-824.64,-97.24" type="3" value="1.55"/>
+        <maxDRAC time="209.00" position="-824.64,-97.24" type="3" value="3.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.16">
+        <timeSpan values="144.00 145.00 146.00 147.00 148.00 149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00 180.00 181.00 182.00 183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.11 0.89 1.39 0.00 0.00 1.73 0.42 0.69 3.84 3.99 4.73 0.00 0.15 0.05 0.00 0.32 0.00 0.01 0.00 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.44 0.00 0.00 0.00 0.00 0.00 0.00 3.88 0.00 0.00 0.78"/>
+        <maxBR time="164.00" position="-803.66,-97.45" value="4.73"/>
+        <SGAPSpan values="54.46 65.26 NA NA NA NA NA NA NA NA NA NA NA NA 57.54 43.66 30.20 17.42 8.49 3.54 3.33 3.08 2.97 2.91 2.57 2.56 2.53 2.52 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 3.39 NA NA 8.11 9.14 10.06 14.94 19.64 24.00 NA NA NA 20.97 21.16 21.52 NA NA"/>
+        <minSGAP time="176.00" position="-803.01,-97.45" value="2.50" leader="flow0.14"/>
+        <TGAPSpan values="NA 92.39 NA NA NA NA NA NA NA NA NA NA NA NA 3.69 3.15 2.24 1.36 0.95 0.72 15.34 12.32 28.62 50.47 7.59 131.72 98.46 185.70 215.16 1849.64 3328.51 5902.09 3387.97 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 2.30 1.75 1.61 3.11 2.90 3.34 NA NA NA 1.42 1.95 1.84 NA NA"/>
+        <minTGAP time="163.00" position="-803.83,-97.45" value="0.72" leader="flow0.14"/>
+    </globalMeasures>
+    <conflict begin="179.00" end="227.00" ego="flow0.18" foe="flow0.17">
+        <minTTC time="180.00" position="-812.84,-97.26" type="2" value="0.90"/>
+        <maxDRAC time="179.00" position="-812.84,-97.26" type="2" value="6.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="180.00" end="226.00" ego="flow0.18" foe="flow0.16">
+        <minTTC time="180.00" position="-806.94,-97.41" type="2" value="1.84"/>
+        <maxDRAC time="180.00" position="-806.94,-97.41" type="2" value="2.19"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="180.00" end="214.00" ego="flow0.18" foe="flow1.13">
+        <minTTC time="184.00" position="-806.91,-94.21" type="2" value="0.77"/>
+        <maxDRAC time="184.00" position="-806.91,-94.21" type="2" value="3.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="181.00" end="211.00" ego="flow0.18" foe="flow0.15">
+        <minTTC time="184.00" position="-801.02,-94.27" type="2" value="2.39"/>
+        <maxDRAC time="184.00" position="-801.02,-94.27" type="2" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="185.00" end="218.00" ego="flow0.18" foe="flow1.14">
+        <minTTC time="188.00" position="-812.83,-94.16" type="3" value="1.52"/>
+        <maxDRAC time="188.00" position="-812.83,-94.16" type="3" value="0.61"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="189.00" end="218.00" ego="flow0.18" foe="flow0.19">
+        <minTTC time="189.00" position="-812.81,-94.16" type="3" value="1.56"/>
+        <maxDRAC time="189.00" position="-812.81,-94.16" type="3" value="3.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.18">
+        <timeSpan values="162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00 180.00 181.00 182.00 183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.73 0.00 1.74 0.00 0.00 2.21 0.01 0.00 0.00 0.00 5.59 3.40 4.59 0.00 0.00 3.77 0.80 0.04 0.00 0.03 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.48 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.15 0.05 0.29 0.00 1.39"/>
+        <maxBR time="180.00" position="-818.51,-96.30" value="5.59"/>
+        <SGAPSpan values="72.76 NA NA NA NA NA NA NA NA NA NA NA NA NA NA 42.22 28.84 15.24 7.22 10.06 10.05 8.23 3.59 2.71 2.62 2.58 2.53 2.51 2.51 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 3.86 5.34 NA NA NA NA 26.42 28.58 30.68 NA NA NA 25.84 26.22 27.66 NA NA"/>
+        <minSGAP time="195.00" position="-808.88,-94.19" value="2.50" leader="flow1.13"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 3.19 2.16 1.12 0.90 2.18 299.34 4.51 0.77 3.07 30.75 63.54 47.93 124.56 460.89 2316.19 2953.18 2456.07 1801.41 17330.41 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 4.13 NA NA NA NA 3.67 3.84 3.18 NA NA NA 2.04 2.08 2.24 NA NA"/>
+        <minTGAP time="184.00" position="-809.74,-94.19" value="0.77" leader="flow1.13"/>
+    </globalMeasures>
+    <conflict begin="179.00" end="227.00" ego="flow0.17" foe="flow0.18">
+        <minTTC time="180.00" position="-812.84,-97.26" type="3" value="0.90"/>
+        <maxDRAC time="179.00" position="-812.84,-97.26" type="3" value="6.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="185.00" end="218.00" ego="flow0.17" foe="flow1.14">
+        <minTTC time="186.00" position="-812.84,-97.36" type="3" value="0.87"/>
+        <maxDRAC time="185.00" position="-812.84,-97.36" type="3" value="5.53"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="197.00" end="218.00" ego="flow0.17" foe="flow0.20">
+        <minTTC time="198.00" position="-812.84,-97.36" type="3" value="0.59"/>
+        <maxDRAC time="197.00" position="-812.84,-97.36" type="3" value="7.68"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="201.00" end="217.00" ego="flow0.17" foe="flow1.15">
+        <minTTC time="201.00" position="-812.84,-97.36" type="3" value="1.97"/>
+        <maxDRAC time="201.00" position="-812.84,-97.36" type="3" value="1.80"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="208.00" end="228.00" ego="flow1.16" foe="flow0.21">
+        <minTTC time="210.00" position="-830.59,-97.18" type="2" value="0.67"/>
+        <maxDRAC time="209.00" position="-830.95,-97.18" type="2" value="6.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="209.00" end="222.00" ego="flow1.16" foe="flow1.15">
+        <minTTC time="209.00" position="-824.64,-97.24" type="2" value="1.55"/>
+        <maxDRAC time="209.00" position="-824.64,-97.24" type="2" value="3.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.17">
+        <timeSpan values="153.00 154.00 155.00 156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00 180.00 181.00 182.00 183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.38 0.46 0.00 0.56 0.00 0.00 0.05 3.91 4.00 2.87 4.24 0.54 0.00 0.12 0.03 0.00 0.01 0.00 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.46 0.00 0.00 0.00 0.20 0.00 0.00 0.00 0.00 0.00 1.41 0.15 0.00 0.46 0.00"/>
+        <maxBR time="172.00" position="-809.11,-97.39" value="4.24"/>
+        <SGAPSpan values="68.89 NA NA NA NA NA NA NA NA NA NA NA NA 58.28 42.69 27.44 15.77 8.11 3.31 2.76 2.73 2.57 2.53 2.53 2.52 2.52 2.51 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 3.07 5.60 6.05 NA NA 9.99 11.04 12.69 14.40 14.83 17.06 NA 18.16 18.64 21.94 21.84 NA NA"/>
+        <minSGAP time="188.00" position="-808.91,-97.39" value="2.50" leader="flow0.16"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA 3.90 2.73 1.76 1.35 1.06 0.69 4.84 98.38 16.18 65.73 490.08 255.89 1835.63 227.47 1537.26 861.99 20689.31 3297.65 NA NA NA NA 22119.27 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 21.84 1.96 NA NA 1.80 1.93 2.30 2.13 1.63 1.66 NA 1.44 1.66 1.98 1.60 NA NA"/>
+        <minTGAP time="171.00" position="-809.56,-97.39" value="0.69" leader="flow0.16"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.14">
+        <timeSpan values="168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00 180.00 181.00 182.00 183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.06 0.00 0.85 0.12 0.00 2.66 4.93 5.78 0.00 1.84 0.00 0.00 0.04 0.02 0.04 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.48 0.00 0.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.76 1.25 0.00"/>
+        <maxBR time="187.00" position="-816.59,-96.32" value="5.78"/>
+        <SGAPSpan values="28.33 39.52 48.82 57.40 NA NA NA NA NA NA NA NA NA NA NA 42.14 26.90 14.31 6.66 4.79 2.84 2.79 2.72 2.61 2.55 2.51 2.51 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 3.79 3.54 4.59 6.55 9.53 NA NA NA 23.83 27.63 31.49 NA NA NA 31.54 28.04 NA NA"/>
+        <minSGAP time="197.00" position="-814.77,-94.14" value="2.50" leader="flow0.18"/>
+        <TGAPSpan values="NA 18.29 20.96 11.58 NA NA NA NA NA NA NA NA NA NA NA 2.86 1.76 1.14 0.87 2.56 1.48 36.62 35.81 25.05 41.29 57.31 471.28 1033.52 1492.60 11911.92 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 3.30 7.75 3.45 6.80 NA NA NA 3.38 3.36 3.51 NA NA NA 1.97 1.83 NA NA"/>
+        <minTGAP time="186.00" position="-818.07,-97.30" value="0.87" leader="flow0.17"/>
+    </globalMeasures>
+    <conflict begin="197.00" end="215.00" ego="flow0.20" foe="flow0.16">
+        <minTTC time="197.00" position="-806.94,-97.41" type="2" value="1.44"/>
+        <maxDRAC time="197.00" position="-806.94,-97.41" type="2" value="4.76"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="197.00" end="218.00" ego="flow0.20" foe="flow0.17">
+        <minTTC time="198.00" position="-812.84,-97.36" type="2" value="0.59"/>
+        <maxDRAC time="197.00" position="-812.84,-97.36" type="2" value="7.68"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="198.00" end="212.00" ego="flow0.20" foe="flow0.14">
+        <minTTC time="198.00" position="-801.05,-97.47" type="2" value="2.54"/>
+        <maxDRAC time="198.00" position="-801.05,-97.47" type="2" value="1.52"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="200.00" end="225.00" ego="flow0.20" foe="flow1.15">
+        <minTTC time="201.00" position="-818.80,-97.30" type="3" value="0.91"/>
+        <maxDRAC time="200.00" position="-818.86,-97.30" type="3" value="6.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="204.00" end="219.00" ego="flow0.20" foe="flow0.21">
+        <minTTC time="204.00" position="-818.74,-97.30" type="3" value="1.88"/>
+        <maxDRAC time="204.00" position="-818.74,-97.30" type="3" value="2.63"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="219.00" end="229.00" ego="flow1.17" foe="flow0.21">
+        <minTTC time="220.00" position="-825.86,-97.23" type="2" value="1.18"/>
+        <maxDRAC time="220.00" position="-825.86,-97.23" type="2" value="3.64"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.20">
+        <timeSpan values="180.00 181.00 182.00 183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00 230.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.26 0.54 0.00 0.41 1.25 0.00 0.00 0.17 0.27 6.00 5.91 1.70 0.01 0.03 0.02 0.00 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.61 0.00 0.00 0.49 0.00 0.00 0.00 2.14 0.00 0.26 0.00 0.00"/>
+        <maxBR time="198.00" position="-816.39,-97.32" value="6.00"/>
+        <SGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 39.86 25.90 12.21 4.51 2.73 2.66 2.59 2.55 2.53 2.52 2.51 2.51 2.50 2.50 2.50 2.50 2.50 2.76 5.63 7.46 10.43 12.41 NA NA 12.95 14.04 14.41 16.91 18.97 NA 17.21 20.36 21.45 24.21 NA NA"/>
+        <minSGAP time="210.00" position="-814.80,-97.34" value="2.50" leader="flow0.17"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 2.82 1.85 0.89 0.59 1.54 35.38 37.72 61.84 141.69 163.40 616.22 510.15 525.96 8102.84 2147.50 12155.04 NA NA 27.20 9.47 8.79 3.47 NA NA 2.21 1.76 1.46 1.80 1.80 NA 1.36 1.93 1.77 2.04 NA NA"/>
+        <minTGAP time="198.00" position="-816.39,-97.32" value="0.59" leader="flow0.17"/>
+    </globalMeasures>
+    <conflict begin="221.00" end="230.00" ego="flow0.23" foe="flow0.22">
+        <minTTC time="221.00" position="-840.70,-93.88" type="2" value="1.01"/>
+        <maxDRAC time="221.00" position="-840.70,-93.88" type="2" value="4.55"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="221.00" end="230.00" ego="flow0.22" foe="flow0.23">
+        <minTTC time="221.00" position="-840.70,-93.88" type="3" value="1.01"/>
+        <maxDRAC time="221.00" position="-840.70,-93.88" type="3" value="4.55"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow1.15">
+        <timeSpan values="183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00 230.00 231.00 232.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.14 0.00 0.00 0.74 1.43 0.00 0.00 0.95 0.00 0.32 6.00 4.37 2.30 0.35 0.00 0.54 0.00 0.09 0.00 0.01 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.92 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.15 1.39 0.48"/>
+        <maxBR time="201.00" position="-823.84,-97.25" value="6.00"/>
+        <SGAPSpan values="3.37 10.54 16.90 23.58 28.26 32.24 34.08 NA NA NA 34.22 35.13 NA NA NA 38.12 26.47 13.44 6.41 3.72 3.31 3.24 2.68 2.67 2.56 2.53 2.51 2.50 2.50 2.50 2.71 3.43 4.08 6.72 10.00 12.04 10.82 NA 15.64 17.67 19.90 22.07 24.93 NA NA 22.56 22.01 22.77 NA NA"/>
+        <minSGAP time="211.00" position="-820.70,-97.28" value="2.50" leader="flow0.20"/>
+        <TGAPSpan values="NA 20.27 7.83 7.26 4.68 3.87 3.33 NA NA NA 2.54 2.76 NA NA NA 3.39 1.97 1.03 0.90 1.36 7.67 37.79 4.80 140.44 21.92 103.79 119.15 237.39 8566.90 NA NA 51.67 7.62 7.15 5.41 2.72 1.53 NA 2.27 2.39 2.39 2.40 2.54 NA NA 1.73 1.65 1.73 NA NA"/>
+        <minTGAP time="201.00" position="-823.84,-97.25" value="0.90" leader="flow0.20"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.19">
+        <timeSpan values="171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00 180.00 181.00 182.00 183.00 184.00 185.00 186.00 187.00 188.00 189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00 230.00 231.00 232.00 233.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.40 0.00 0.00 2.55 0.00 0.00 0.50 2.33 6.00 4.06 0.25 0.00 0.44 0.14 0.01 0.00 0.04 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.75 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.78 0.90 0.00 0.00 0.00 0.00 1.85 0.00"/>
+        <maxBR time="190.00" position="-822.21,-94.06" value="6.00"/>
+        <SGAPSpan values="4.45 9.63 NA NA NA NA NA NA NA NA NA NA NA NA NA NA 40.25 19.45 8.84 4.24 3.73 3.42 2.84 2.65 2.61 2.57 2.52 2.51 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 2.50 3.57 4.02 4.45 5.14 7.42 11.58 15.48 NA NA NA 26.08 27.93 29.15 NA NA NA 44.40 NA NA NA NA"/>
+        <minSGAP time="200.00" position="-820.67,-94.08" value="2.50" leader="flow1.14"/>
+        <TGAPSpan values="NA 13.81 NA NA NA NA NA NA NA NA NA NA NA NA NA NA 2.98 1.49 0.83 0.91 6.03 9.41 4.53 13.85 52.70 62.10 52.01 192.25 483.20 10249.43 NA NA NA NA NA NA NA NA NA NA NA NA NA 27.91 3.04 7.17 7.62 8.88 6.99 NA NA NA 3.03 2.85 2.29 NA NA NA 3.82 NA NA NA NA"/>
+        <minTGAP time="189.00" position="-825.89,-94.03" value="0.83" leader="flow1.14"/>
+    </globalMeasures>
+    <conflict begin="208.00" end="226.00" ego="flow0.21" foe="flow1.16">
+        <minTTC time="210.00" position="-830.59,-97.18" type="3" value="0.67"/>
+        <maxDRAC time="209.00" position="-830.95,-97.18" type="3" value="6.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="219.00" end="229.00" ego="flow0.21" foe="flow1.17">
+        <minTTC time="220.00" position="-825.86,-97.23" type="3" value="1.18"/>
+        <maxDRAC time="220.00" position="-825.86,-97.23" type="3" value="3.64"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <globalMeasures ego="flow0.21">
+        <timeSpan values="189.00 190.00 191.00 192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00 230.00 231.00 232.00 233.00 234.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.93 0.57 0.00 0.68 0.00 6.00 4.18 4.73 0.46 0.00 0.28 0.00 0.45 0.00 0.01 0.02 0.00 0.00 0.00 0.17 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.03 0.26 0.00 0.56 0.00 2.89 0.00 0.19 0.00"/>
+        <maxBR time="204.00" position="-833.26,-97.15" value="6.00"/>
+        <SGAPSpan values="25.52 38.09 46.97 54.72 NA NA NA NA NA 57.78 NA NA NA 35.45 20.02 10.24 5.11 4.18 3.81 3.28 3.04 2.58 2.57 2.53 2.51 2.57 3.06 3.87 4.78 8.45 13.99 17.65 19.14 NA NA 20.85 18.49 19.07 20.37 NA NA 18.66 18.60 17.95 NA NA"/>
+        <minSGAP time="213.00" position="-826.60,-97.22" value="2.51" leader="flow1.15"/>
+        <TGAPSpan values="NA 113.83 16.34 11.45 NA NA NA NA NA 3.73 NA NA NA 2.41 1.26 1.04 0.90 4.41 7.81 5.96 11.27 5.58 150.03 72.81 105.84 458.31 73.43 28.07 5.15 11.08 9.00 7.04 3.54 NA NA 2.26 1.52 1.71 1.87 NA NA 1.26 1.57 1.50 NA NA"/>
+        <minTGAP time="205.00" position="-828.80,-97.20" value="0.90" leader="flow1.15"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.16">
+        <timeSpan values="192.00 193.00 194.00 195.00 196.00 197.00 198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00 230.00 231.00 232.00 233.00 234.00 235.00 236.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.85 0.92 0.00 4.30 5.13 5.12 0.39 0.00 0.00 0.09 0.04 0.00 0.00 0.00 0.00 1.15 0.41 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.69 0.00 0.00 1.15 0.00 0.79"/>
+        <maxBR time="210.00" position="-833.27,-97.15" value="5.13"/>
+        <SGAPSpan values="2.99 10.35 17.54 26.05 34.51 42.72 51.69 NA NA NA NA NA NA NA NA NA 18.94 8.52 3.42 2.99 2.97 2.90 2.71 2.64 12.35 13.23 12.33 9.78 7.69 7.07 9.08 13.09 NA NA 30.61 34.15 36.55 NA NA NA 32.12 30.72 NA NA NA"/>
+        <minSGAP time="215.00" position="-832.55,-96.16" value="2.64" leader="flow0.21"/>
+        <TGAPSpan values="NA 38.75 11.37 10.95 8.80 6.84 7.90 NA NA NA NA NA NA NA NA NA 1.26 0.80 0.61 6.68 56.83 30.95 13.59 23.45 177.00 133.64 5.60 2.05 1.31 1.50 2.11 2.86 NA NA 4.58 4.55 3.98 NA NA NA 2.23 2.12 NA NA NA"/>
+        <minTGAP time="210.00" position="-833.27,-97.15" value="0.61" leader="flow0.21"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.17">
+        <timeSpan values="204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00 230.00 231.00 232.00 233.00 234.00 235.00 236.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.48 0.00 0.00 0.00 0.84 0.48 1.01 6.00 0.40 0.00 0.00 0.00 0.00 0.00 3.39 0.00 0.14 0.00 0.71 0.00 1.12 0.00 0.70"/>
+        <maxBR time="221.00" position="-829.82,-97.19" value="6.00"/>
+        <SGAPSpan values="39.34 48.34 55.36 60.50 NA NA NA NA NA 62.23 NA NA NA NA 29.29 18.73 10.14 10.45 12.49 13.53 15.57 NA 19.24 16.97 20.75 21.73 NA NA 23.01 20.96 22.18 NA NA"/>
+        <minSGAP time="220.00" position="-833.83,-97.15" value="10.14" leader="flow0.21"/>
+        <TGAPSpan values="NA 18.18 16.07 11.04 NA NA NA NA NA 4.62 NA NA NA NA 2.33 1.55 0.91 2.05 2.66 2.18 2.17 NA 1.77 1.29 2.13 1.81 NA NA 1.86 1.51 1.74 NA NA"/>
+        <minTGAP time="220.00" position="-833.83,-97.15" value="0.91" leader="flow0.21"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.22">
+        <timeSpan values="198.00 199.00 200.00 201.00 202.00 203.00 204.00 205.00 206.00 207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00 230.00 231.00 232.00 233.00 234.00 235.00 236.00 237.00 238.00 239.00 240.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.19 0.00 0.00 1.00 0.46 0.56 0.00 0.00 4.23 2.62 4.25 0.43 0.24 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.76 0.60 0.00 0.32 0.00 0.00 0.98 0.00 0.00 1.14 0.68 0.00 0.98 0.00 1.13"/>
+        <maxBR time="216.00" position="-838.66,-93.90" value="4.25"/>
+        <SGAPSpan values="15.89 21.40 25.36 30.07 33.94 37.14 NA NA NA 48.65 NA NA NA NA NA 15.88 23.81 20.26 2.87 2.63 4.73 9.28 14.51 18.10 20.01 19.25 16.11 12.67 12.33 NA NA 17.53 22.95 25.23 NA NA NA 36.74 39.83 NA NA NA NA"/>
+        <minSGAP time="217.00" position="-838.40,-93.90" value="2.63" leader="flow1.16"/>
+        <TGAPSpan values="NA 8.28 5.17 4.56 3.93 3.56 NA NA NA 4.58 NA NA NA NA NA 1.34 3.12 4.04 3.76 7.83 48.89 41.78 23.00 16.18 8.34 3.60 2.00 1.44 1.76 NA NA 2.10 2.44 2.32 NA NA NA 3.38 3.90 NA NA NA NA"/>
+        <minTGAP time="213.00" position="-863.73,-95.68" value="1.34" leader="flow1.16"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.23">
+        <timeSpan values="207.00 208.00 209.00 210.00 211.00 212.00 213.00 214.00 215.00 216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00 230.00 231.00 232.00 233.00 234.00 235.00 236.00 237.00 238.00 239.00 240.00 241.00 242.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.41 0.13 0.54 0.59 0.38 0.83 5.66 0.97 0.00 0.00 0.00 2.06 2.96 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.52 0.00 0.20 0.00 0.99 1.42"/>
+        <maxBR time="222.00" position="-844.37,-93.84" value="5.66"/>
+        <SGAPSpan values="6.58 12.66 16.62 19.04 NA NA NA NA NA NA NA NA NA NA 9.34 7.06 8.71 11.55 12.65 10.48 9.76 14.27 NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="207.00" position="-998.49,-94.09" value="6.58" leader="flow1.17"/>
+        <TGAPSpan values="NA 5.61 3.30 2.60 NA NA NA NA NA NA NA NA NA NA 0.90 1.51 2.35 2.22 1.65 1.14 1.37 3.41 NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="221.00" position="-848.04,-93.81" value="0.90" leader="flow0.22"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.24">
+        <timeSpan values="216.00 217.00 218.00 219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00 230.00 231.00 232.00 233.00 234.00 235.00 236.00 237.00 238.00 239.00 240.00 241.00 242.00 243.00 244.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.38 0.00 0.60 0.00 1.52 0.00 0.00 0.29 0.62 1.55 0.00 0.00 0.00 2.88 0.00 0.00 1.46 0.94 0.34 0.00"/>
+        <maxBR time="238.00" position="-743.77,-96.85" value="2.88"/>
+        <SGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA 43.45 35.79 NA NA 27.85 27.92 26.44 22.80 NA 20.47 20.08 20.16 19.76 NA NA"/>
+        <minSGAP time="242.00" position="-688.36,-96.90" value="19.76" leader="flow0.23"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA 3.14 2.39 NA NA 2.23 2.23 1.84 1.52 NA 1.55 1.48 1.66 1.77 NA NA"/>
+        <minTGAP time="240.00" position="-710.15,-96.64" value="1.48" leader="flow0.23"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.25">
+        <timeSpan values="225.00 226.00 227.00 228.00 229.00 230.00 231.00 232.00 233.00 234.00 235.00 236.00 237.00 238.00 239.00 240.00 241.00 242.00 243.00 244.00 245.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.19 0.77 0.00 0.00 0.84 0.00"/>
+        <maxBR time="244.00" position="-844.46,-97.04" value="0.84"/>
+        <SGAPSpan values="18.12 25.42 35.41 46.85 56.86 NA NA NA NA NA NA NA NA NA NA NA NA NA NA 55.17 41.50"/>
+        <minSGAP time="225.00" position="-998.49,-94.09" value="18.12" leader="flow1.18"/>
+        <TGAPSpan values="NA 20.45 22.99 20.00 19.31 NA NA NA NA NA NA NA NA NA NA NA NA NA NA 4.35 3.03"/>
+        <minTGAP time="245.00" position="-833.69,-97.15" value="3.03" leader="flow1.18"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.26">
+        <timeSpan values="234.00 235.00 236.00 237.00 238.00 239.00 240.00 241.00 242.00 243.00 244.00 245.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.20"/>
+        <maxBR time="245.00" position="-897.52,-95.60" value="0.20"/>
+        <SGAPSpan values="28.88 35.29 40.75 45.65 50.05 NA NA NA NA NA NA NA"/>
+        <minSGAP time="234.00" position="-998.49,-94.09" value="28.88" leader="flow0.25"/>
+        <TGAPSpan values="NA 88.25 13.97 8.08 7.46 NA NA NA NA NA NA NA"/>
+        <minTGAP time="238.00" position="-983.60,-94.25" value="7.46" leader="flow0.25"/>
+    </globalMeasures>
+    <globalMeasures ego="flow0.27">
+        <timeSpan values="243.00 244.00 245.00"/>
+        <BRSpan values="0.00 0.00 0.00"/>
+        <SGAPSpan values="6.54 12.32 NA"/>
+        <minSGAP time="243.00" position="-998.49,-94.09" value="6.54" leader="flow1.20"/>
+        <TGAPSpan values="NA 19.68 NA"/>
+        <minTGAP time="244.00" position="-997.89,-93.10" value="19.68" leader="flow1.20"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.18">
+        <timeSpan values="219.00 220.00 221.00 222.00 223.00 224.00 225.00 226.00 227.00 228.00 229.00 230.00 231.00 232.00 233.00 234.00 235.00 236.00 237.00 238.00 239.00 240.00 241.00 242.00 243.00 244.00 245.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.84 0.00 1.15 1.18 0.00 0.00 0.83 2.00 0.00 1.42 1.24 3.68 4.24 2.08 0.49 0.03 0.01"/>
+        <maxBR time="241.00" position="-797.69,-97.51" value="4.24"/>
+        <SGAPSpan values="4.17 11.62 20.40 28.24 36.40 45.66 NA NA NA NA NA NA NA NA NA 61.73 NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="219.00" position="-998.49,-94.09" value="4.17" leader="flow0.24"/>
+        <TGAPSpan values="NA 15.83 10.29 7.18 7.43 8.90 NA NA NA NA NA NA NA NA NA 4.28 NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="234.00" position="-867.34,-96.57" value="4.28" leader="flow0.24"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.19">
+        <timeSpan values="229.00 230.00 231.00 232.00 233.00 234.00 235.00 236.00 237.00 238.00 239.00 240.00 241.00 242.00 243.00 244.00 245.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.16 0.95 0.00 1.65 0.00 0.00"/>
+        <maxBR time="243.00" position="-865.41,-93.43" value="1.65"/>
+        <SGAPSpan values="3.07 6.89 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="229.00" position="-998.49,-94.09" value="3.07" leader="flow0.25"/>
+        <TGAPSpan values="NA 27.90 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="230.00" position="-998.25,-93.09" value="27.90" leader="flow0.25"/>
+    </globalMeasures>
+    <globalMeasures ego="flow1.20">
+        <timeSpan values="240.00 241.00 242.00 243.00 244.00 245.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00"/>
+        <SGAPSpan values="29.91 39.09 47.63 55.13 NA NA"/>
+        <minSGAP time="240.00" position="-998.49,-94.09" value="29.91" leader="flow0.26"/>
+        <TGAPSpan values="NA 13.99 13.46 10.59 NA NA"/>
+        <minTGAP time="243.00" position="-987.53,-94.21" value="10.59" leader="flow0.26"/>
+    </globalMeasures>
+</SSMLog>

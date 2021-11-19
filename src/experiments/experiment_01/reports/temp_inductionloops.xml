@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-11-19 02:10:21 by Eclipse SUMO GUI Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="configs/thesis.net.xml"/>
+        <route-files value="configs/thesis.rou.xml"/>
+        <additional-files value="configs/thesis.add.xml"/>
+    </input>
+
+    <output>
+        <netstate-dump value="configs/../reports/temp_netstate-dump.xml"/>
+        <fcd-output value="configs/../reports/temp_fcd.xml"/>
+        <tripinfo-output value="reports/temp_tripinfo.xml"/>
+        <collision-output value="reports/temp_collisions.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="3"/>
+        <collision.stoptime value="600"/>
+        <time-to-teleport value="0"/>
+    </processing>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="52759"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="configs/../../globalConfigs/file.settings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="76.00" id="loop0" nVehContrib="14" flow="663.16" occupancy="65.49" speed="1.56" harmonicMeanSpeed="1.53" length="5.00" nVehEntered="16"/>
+    <interval begin="0.00" end="76.00" id="loop1" nVehContrib="10" flow="473.68" occupancy="6.42" speed="11.44" harmonicMeanSpeed="11.04" length="5.50" nVehEntered="10"/>
+    <interval begin="0.00" end="76.00" id="loop2" nVehContrib="8" flow="378.95" occupancy="4.63" speed="11.46" harmonicMeanSpeed="11.36" length="5.00" nVehEntered="8"/>
+    <interval begin="0.00" end="76.00" id="loop3" nVehContrib="4" flow="189.47" occupancy="4.12" speed="8.16" harmonicMeanSpeed="6.39" length="5.00" nVehEntered="4"/>
+    <interval begin="0.00" end="76.00" id="loop4" nVehContrib="4" flow="189.47" occupancy="2.16" speed="12.52" harmonicMeanSpeed="12.20" length="5.00" nVehEntered="4"/>
+</detector>
